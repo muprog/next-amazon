@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Logitech G Pro X Wireless Headset",
+    "description": "Professional-grade wireless gaming headset with Blue VO!CE technology.",
+    "price": 199.99,
+    "stock": 25,
+    "category": "Audio",
+    "image": "https://media.istockphoto.com/id/1334985601/photo/notebook-with-headphones-with-mic-and-a-webcam-concept-of-smart-working-or-online.jpg?s=1024x1024&w=is&k=20&c=EhOMnXbQEBRrmwYh-hjOQFf2q__3fd4Eza5jNc3Yu88=",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Razer BlackShark V2 Pro",
+    "description": "Wireless gaming headset with THX 7.1 surround sound.",
+    "price": 179.99,
+    "stock": 30,
+    "category": "Audio",
+    "image": "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "SteelSeries Arctis Nova Pro Wireless",
+    "description": "High-fidelity gaming headset with active noise cancellation.",
+    "price": 349.99,
+    "stock": 20,
+    "category": "Audio",
+    "image": "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8=",
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "name": "Corsair Virtuoso RGB Wireless XT",
+    "description": "Premium gaming headset with broadcast-quality microphone.",
+    "price": 269.99,
+    "stock": 15,
+    "category": "Audio",
+    "image": "https://media.istockphoto.com/id/1001802290/photo/small-black-wired-gaming-headset-lying-on-the-keyboard-of-a-notebook.jpg?s=612x612&w=0&k=20&c=AVGacxuTGT2G89s-Lfp3VHKjGrJLpX887s-0m-eubs8=",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "name": "HyperX Cloud II Wireless",
+    "description": "Legendary gaming headset with 7.1 surround sound.",
+    "price": 149.99,
+    "stock": 40,
+    "category": "Audio",
+    "image": "https://media.istockphoto.com/id/1389235290/photo/computer-magnifying-glass-glasses-headphones-and-mobile-phone-on-white-background-board.jpg?s=612x612&w=0&k=20&c=3SXRIr1XprlLmGe-A1p56S1mQEvRFoVnRelrHA51VGY=",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "name": "Razer Huntsman Elite",
+    "description": "Opto-mechanical gaming keyboard with customizable RGB lighting.",
+    "price": 199.99,
+    "stock": 35,
+    "category": "Keyboards",
+    "image": "https://images.unsplash.com/photo-1555100836-d98eb95c6c16?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Logitech G915 TKL",
+    "description": "Wireless mechanical keyboard with low-profile switches.",
+    "price": 229.99,
+    "stock": 25,
+    "category": "Keyboards",
+    "image": "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "name": "SteelSeries Apex Pro",
+    "description": "Adjustable mechanical switches with OLED smart display.",
+    "price": 199.99,
+    "stock": 20,
+    "category": "Keyboards",
+    "image": "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "name": "Corsair K95 RGB Platinum XT",
+    "description": "Mechanical gaming keyboard with macro keys and RGB lighting.",
+    "price": 159.99,
+    "stock": 30,
+    "category": "Keyboards",
+    "image": "https://images.unsplash.com/photo-1629360652431-cde31a9d7a24?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.2
+  },
+  {
+    "id": 10,
+    "name": "Ducky One 2 Mini",
+    "description": "Compact mechanical gaming keyboard with PBT keycaps.",
+    "price": 109.99,
+    "stock": 50,
+    "category": "Keyboards",
+    "image": "https://images.unsplash.com/photo-1582078926662-b63927d0108d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "Logitech G Pro X Superlight",
+    "description": "Ultra-lightweight wireless gaming mouse with HERO 25K sensor.",
+    "price": 159.99,
+    "stock": 30,
+    "category": "Mice",
+    "image": "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.7
+  },
+  {
+    "id": 12,
+    "name": "Razer DeathAdder V3 Pro",
+    "description": "Ergonomic wireless gaming mouse with Focus Pro 30K sensor.",
+    "price": 149.99,
+    "stock": 25,
+    "category": "Mice",
+    "image": "https://media.istockphoto.com/id/1339268376/photo/computer-equipment.webp?a=1&s=612x612&w=0&k=20&c=ZqH1hkOqO0j7dJeuWhzr7gjDc_Hm6-xRtEA9rlvEJ90=",
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "name": "SteelSeries Aerox 9 Wireless",
+    "description": "Ultra-lightweight MMO gaming mouse with 18 programmable buttons.",
+    "price": 149.99,
+    "stock": 20,
+    "category": "Mice",
+    "image": "https://images.unsplash.com/photo-1554576575-a4e7b6e8409d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "name": "Glorious Model O Wireless",
+    "description": "Lightweight wireless gaming mouse with customizable RGB.",
+    "price": 129.99,
+    "stock": 35,
+    "category": "Mice",
+    "image": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.9
+  },
+  {
+    "id": 15,
+    "name": "Corsair Dark Core RGB Pro SE",
+    "description": "Wireless gaming mouse with Qi wireless charging.",
+    "price": 89.99,
+    "stock": 40,
+    "category": "Mice",
+    "image": "https://images.unsplash.com/photo-1599779600619-1012639ed04b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+    "rating": 4.3
+  },
+  {
+    "id": 16,
+    "name": "Secretlab TITAN Evo 2022",
+    "description": "Premium gaming chair with adjustable lumbar support.",
+    "price": 499.99,
+    "stock": 15,
+    "category": "Chairs",
+    "image": "https://m.media-amazon.com/images/I/61VOqmD742L._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": 4.6
+  },
+  {
+    "id": 17,
+    "name": "Razer Iskur X",
+    "description": "Ergonomic gaming chair with high-density foam cushions.",
+    "price": 399.99,
+    "stock": 20,
+    "category": "Chairs",
+    "image": "https://m.media-amazon.com/images/I/712Pv0pZjiL._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": 4.2
+  },
+  {
+    "id": 18,
+    "name": "Corsair TC200",
+    "description": "Premium racing-style gaming chair with breathable fabric.",
+    "price": 349.99,
+    "stock": 25,
+    "category": "Chairs",
+    "image": "https://m.media-amazon.com/images/I/71xFvq+A9EL._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": 4.4
+  },
+  {
+    "id": 19,
+    "name": "DXRacer Formula Series",
+    "description": "Ergonomic gaming chair with adjustable armrests and lumbar support.",
+    "price": 299.99,
+    "stock": 30,
+    "category": "Chairs",
+    "image": "https://m.media-amazon.com/images/I/71-tTLbGokL._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": 4.1
+  },
+  {
+    "id": 20,
+    "name": "AKRacing Masters Series",
+    "description": "Luxury gaming chair with durable PU leather.",
+    "price": 429.99,
+    "stock": 18,
+    "category": "Chairs",
+    "image": "https://m.media-amazon.com/images/I/61yzRd+LN+L._AC_UL480_FMwebp_QL65_.jpg",
+    "rating": 4.8
+  }
+]

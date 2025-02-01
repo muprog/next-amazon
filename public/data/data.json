@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Amazon Music",
+    "description": "Stream millions of songs"
+  },
+  {
+    "id": 2,
+    "title": "Amazon Ads",
+    "description": "Reach customers whereever they spend their time."
+  },
+  {
+    "id": 3,
+    "title": "6pm",
+    "description": "Score deals on fashion brands"
+  },
+  {
+    "id": 4,
+    "title": "AbeBooks",
+    "description": "Books, art & collectibles"
+  },
+  {
+    "id": 5,
+    "title": "ACX",
+    "description": "Audiobook publishing Made Ease"
+  },
+  {
+    "id": 6,
+    "title": "Amazon Business",
+    "description": "Everything For you Business"
+  },
+  {
+    "id": 7,
+    "title": "AmazonGlobal",
+    "description": "Ship Orders Internationally"
+  },
+  {
+    "id": 8,
+    "title": "Home Services",
+    "description": "Experienced Pros Happiness Guarantee"
+  },
+  {
+    "id": 9,
+    "title": "Amazon Web Services",
+    "description": "Scalable Cloud Computing Services"
+  },
+  {
+    "id": 10,
+    "title": "Audible",
+    "description": "Listen to Books & Original Audio Performances"
+  }
+]

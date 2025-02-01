@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.hover {
+  @apply hover:border w-[50px] h-[30px];
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.header-font {
+  @apply text-[10px] text-nowrap hover:border h-[30px] cursor-pointer;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.header-bold-font {
+  @apply font-bold;
+}
+.ads-inner-div {
+  @apply relative w-full h-[100vh] flex-shrink-0;
+}
+.fourproduct-name {
+  @apply text-[7px] text-nowrap font-light;
 }
