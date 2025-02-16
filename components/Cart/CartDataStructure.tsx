@@ -166,7 +166,7 @@ export default function CartDataStructure({
 // setSavedForLater,
 cartDataType) {
   const [loading, setLoading] = useState(false)
-  const [imageLoading, setImageLoading] = useState(true)
+  const [, setImageLoading] = useState(true)
   const context = useContext(MyContext)
   if (!context) return <div>Loading</div>
 
