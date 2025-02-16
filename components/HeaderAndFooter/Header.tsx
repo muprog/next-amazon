@@ -32,7 +32,7 @@ export default function Header() {
     if (!hideCartPage) {
       setOpenCart(true)
     }
-  }, [hideCartPage, cartData])
+  }, [cartData])
 
   useEffect(() => {
     setMounted(true)
