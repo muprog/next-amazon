@@ -206,33 +206,45 @@ export default function Page() {
 
   const gameData = async () => {
     const result = await getGameData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
   const homeData = async () => {
     const result = await getHomeData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
   const fashionData = async () => {
     const result = await getFashionData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
   const kitchenData = async () => {
     const result = await getKitchenData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
   const toyData = async () => {
     const result = await getToyData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
 
   const bookData = async () => {
     const result = await getBookData()
-    setSingleProduct(result.filter((product: object | any) => product.id == id))
+    setSingleProduct(
+      result.filter((product: ProductDetailProps) => product.id == id)
+    )
     setRelated(result)
   }
   // console.log(category)
@@ -275,20 +287,20 @@ export default function Page() {
       // alert('ksdfk')
       bookData()
     }
-  }, [])
+  })
   // console.log(cartData)
   const context = useContext(MyContext)
   if (!context) {
     return <div className='text-center text-[50px]'>Loading</div>
   }
-  const { cartData, setCartData } = context
-  const [quantity, setQuantity] = useState(1)
+  const { setCartData } = context
+  // const [quantity, setQuantity] = useState(1)
 
   function handleCartChange() {
     try {
       setCartData((prevCarData) => {
         if (prevCarData.length === 0 && singleProduct[0]) {
-          return [{ product: singleProduct[0], quantity: quantity }]
+          return [{ product: singleProduct[0], quantity: 1 }]
         }
         if (prevCarData.length > 0 && singleProduct[0]) {
           const filtered: cartDataProps[] = prevCarData.filter(
@@ -321,10 +333,7 @@ export default function Page() {
           }
 
           if (filtered.length === 0) {
-            return [
-              ...prevCarData,
-              { product: singleProduct[0], quantity: quantity },
-            ]
+            return [...prevCarData, { product: singleProduct[0], quantity: 1 }]
           } else {
             return prevCarData
           }

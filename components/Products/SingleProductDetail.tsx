@@ -1,8 +1,9 @@
 'use client'
 import Link from 'next/link'
-import { ProductDetailProps, productDetailType } from '@/Types'
+import { ProductDetailProps } from '@/Types'
 import React, { useState, useRef } from 'react'
 import Button from '../Button/Button'
+import Image from 'next/image'
 interface CartDataProps {
   product: ProductDetailProps
   handleCartChange: () => void
@@ -16,20 +17,18 @@ export default function SingleProductDetail({
   const imageRef = useRef<HTMLDivElement>(null)
   const zoomFactor = 3 // Zoom factor for high resolution
   const zoomBoxSize = 30 // Hover indicator size
-  const zoomContainerWidth = 200 // Consistent width of zoomed area
-  const zoomContainerHeight = 250 // Consistent height of zoomed area
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!imageRef.current) return
 
     const { left, top, width, height } =
       imageRef.current.getBoundingClientRect()
-    let x = e.clientX - left
-    let y = e.clientY - top
+    const x = e.clientX - left
+    const y = e.clientY - top
 
     // Convert to percentage (0-100%)
-    let xPercent = (x / width) * 100
-    let yPercent = (y / height) * 100
+    const xPercent = (x / width) * 100
+    const yPercent = (y / height) * 100
 
     // Ensure boundaries
     if (x < 0 || x > width || y < 0 || y > height) {
@@ -64,9 +63,11 @@ export default function SingleProductDetail({
               className='cursor-pointer'
               key={product.image?.indexOf(image)}
             >
-              <img
+              <Image
                 src={`${image ? image : ''}`}
                 alt={`${product?.name}`}
+                width={50}
+                height={50}
                 className={`w-[50px] h-[50px] rounded-lg border ${
                   product.image?.indexOf(image) === indexOfSmallImages
                     ? 'border-amazon-blue border-2'
@@ -82,9 +83,11 @@ export default function SingleProductDetail({
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
-        <img
+        <Image
           src={`${productImage}`}
           alt={`${product?.name}`}
+          width={150}
+          height={200}
           className=' w-full h-full'
         />
 

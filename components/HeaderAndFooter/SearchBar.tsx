@@ -6,16 +6,25 @@ import {
   ComboboxOption,
   ComboboxOptions,
 } from '@headlessui/react'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import ListBox from './ListBox'
 import { useRouter } from 'next/navigation'
 
-const people = [
-  { id: 1, name: 'Adoniyas Seid' },
-  { id: 2, name: 'Alemu Kebede' },
-  { id: 3, name: 'Habtamu Lamesgin' },
-  { id: 4, name: 'Slenat Lamesgin' },
-]
+// const people = [
+//   { id: 1, name: 'Adoniyas Seid' },
+//   { id: 2, name: 'Alemu Kebede' },
+//   { id: 3, name: 'Habtamu Lamesgin' },
+//   { id: 4, name: 'Slenat Lamesgin' },
+// ]
+
+interface filteredPeopleProps {
+  id: number
+  name: string
+}
+// interface listProps {
+//   id: number
+//   name: string
+// }
 
 const people1 = [
   {
@@ -77,11 +86,7 @@ const people1 = [
 ]
 
 export default function SearchBar() {
-  const [selected, setSelected] = useState<{
-    id: number
-    category: string
-    List: { id: number; name: string }[]
-  } | null>(people1[0])
+  const [, setSelected] = useState<filteredPeopleProps>(people1[0].List[0])
   const [selectedListBox, setSelectedListBox] = useState({
     id: 0,
     category: 'All',
@@ -97,16 +102,16 @@ export default function SearchBar() {
   const [isOptionSelected, setIsOptionSelected] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const filteredPeople =
-    query === ''
-      ? people1
-      : people1.filter((person) =>
-          person.category.toLowerCase().includes(query.toLowerCase())
-        )
+  // const filteredPeople =
+  //   query === ''
+  //     ? people1
+  //     : people1.filter((person) =>
+  //         person.category.toLowerCase().includes(query.toLowerCase())
+  //       )
 
   const filteredPeople1 =
     selectedListBox &&
-    people1
+    (people1
       .find((person) =>
         person.category
           .toLowerCase()
@@ -114,11 +119,11 @@ export default function SearchBar() {
       )
       ?.List.filter((person) =>
         person.name.toLowerCase().includes(query.toLowerCase())
-      )
+      ) as filteredPeopleProps[])
 
   const router = useRouter()
   // useEffect(() => {}, [selectedListBox])
-  const handleCategoryChange = (selectedOption: any) => {
+  const handleCategoryChange = (selectedOption: filteredPeopleProps) => {
     if (selectedOption?.name) {
       setSelected(selectedOption)
       router.push(`/category/${selectedOption.name}`)
@@ -153,7 +158,7 @@ export default function SearchBar() {
 
         <Combobox onChange={handleCategoryChange} onClose={() => setQuery('')}>
           <ComboboxInput
-            displayValue={(person: any) => person?.name}
+            displayValue={(person: filteredPeopleProps) => person?.name}
             onChange={(e) => setQuery(e.target.value)}
             className={`focus:outline-none px-1 py-1 h-full flex-1 text-[16px]`}
             placeholder='Search Amazon'

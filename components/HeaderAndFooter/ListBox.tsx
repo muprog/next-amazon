@@ -8,21 +8,30 @@ import {
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { ListBOxProps } from '@/Types'
-const people = [
-  { id: 0, name: 'All' },
-  { id: 1, name: 'Adoniyas Seid' },
-  { id: 2, name: 'Alemu Kebede' },
-  { id: 3, name: 'Habtamu Lamesgin' },
-  { id: 4, name: 'Slenat Lamesgin' },
-  { id: 5, name: 'Adoniyas Seid' },
-  { id: 6, name: 'Alemu Kebede' },
-  { id: 7, name: 'Habtamu Lamesgin' },
-  { id: 8, name: 'Slenat Lamesgin' },
-  { id: 9, name: 'Adoniyas Seid' },
-  { id: 10, name: 'Alemu Kebede' },
-  { id: 11, name: 'Habtamu Lamesgin' },
-  { id: 12, name: 'Slenat Lamesgin' },
-]
+// const people = [
+//   { id: 0, name: 'All' },
+//   { id: 1, name: 'Adoniyas Seid' },
+//   { id: 2, name: 'Alemu Kebede' },
+//   { id: 3, name: 'Habtamu Lamesgin' },
+//   { id: 4, name: 'Slenat Lamesgin' },
+//   { id: 5, name: 'Adoniyas Seid' },
+//   { id: 6, name: 'Alemu Kebede' },
+//   { id: 7, name: 'Habtamu Lamesgin' },
+//   { id: 8, name: 'Slenat Lamesgin' },
+//   { id: 9, name: 'Adoniyas Seid' },
+//   { id: 10, name: 'Alemu Kebede' },
+//   { id: 11, name: 'Habtamu Lamesgin' },
+//   { id: 12, name: 'Slenat Lamesgin' },
+// ]
+interface ListProps {
+  id: number
+  name: string
+}
+interface personProps {
+  id: number
+  category: string
+  List: ListProps[]
+}
 
 const people1 = [
   {
@@ -79,14 +88,14 @@ const people1 = [
 ]
 
 export default function ListBox({
-  isOptionSelected,
-  setIsOptionSelected,
+  // isOptionSelected,
+  // setIsOptionSelected,
   handleOptionSelected,
   selected,
   setSelected,
 }: // inputRef,
 ListBOxProps) {
-  const handleChange = (newOption: any) => {
+  const handleChange = (newOption: personProps) => {
     // Custom logic
     setSelected(newOption) // Update the state
     handleOptionSelected()
@@ -98,7 +107,7 @@ ListBOxProps) {
   // console.log(isOptionSelected)
   useEffect(() => {
     setSelected(people1[0])
-  }, [])
+  }, [setSelected])
   return (
     <div
       className='h-full text-[12px] font-serif hover:text-black text-gray-600'

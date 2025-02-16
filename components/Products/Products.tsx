@@ -1,7 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
 import FourProducts from './FourProducts'
-import BooksHorizontalScoll from '../HorizontalScroll/BooksHorizontalScoll'
 const fourProducts = [
   {
     id: 1,
@@ -42,7 +40,7 @@ const fourProducts = [
   },
   {
     id: 4,
-    title: 'New home arrivals under $50',
+    title: 'New home arrivals',
     link: 'Shop the latest from Home',
     images: [
       '/image/home-products/kitchenAndDining.jpg',

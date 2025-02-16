@@ -326,9 +326,11 @@ export default function ProductDetail({
         href={`/product/${product?.id}?id=${product?.id}&category=${product?.category}`}
       >
         <div className='relative h-[150px] w-[170px]'>
-          <img
+          <Image
             src={`${product.image ? product?.image[0] : ''}`}
             alt={`${product?.name}`}
+            width={210}
+            height={160}
             className='object-center h-[210px] w-[160px]'
           />
         </div>

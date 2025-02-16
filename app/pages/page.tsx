@@ -29,12 +29,12 @@ export default function Home() {
     }, 0)
   }
 
-  const filteredPeople =
-    query === ''
-      ? people
-      : people.filter((person) =>
-          person.name.toLowerCase().includes(query.toLowerCase())
-        )
+  // const filteredPeople =
+  //   query === ''
+  //     ? people
+  //     : people.filter((person) =>
+  //         person.name.toLowerCase().includes(query.toLowerCase())
+  //       )
 
   return (
     <div className='flex flex-col items-center min-h-screen p-6 bg-gray-100'>

@@ -9,19 +9,19 @@ import {
   getToyData,
   getFashionData,
   getKitchenData,
-  getBookData,
 } from '@/utils'
+import { ProductDetailProps } from '@/Types'
 // import { div, object } from 'framer-motion/client'
 
 export default function DynamicPage() {
   const params = useParams()
   const { name } = params
 
-  const [search, setSearch] = useState([])
+  const [search, setSearch] = useState<ProductDetailProps[]>([])
   const gameData = async (name: string) => {
     const result = await getGameData()
     setSearch(
-      result.filter((product: object | any) => {
+      result.filter((product: ProductDetailProps) => {
         return product.category === name
       })
     )
@@ -33,7 +33,7 @@ export default function DynamicPage() {
       setSearch(result)
     } else {
       setSearch(
-        result.filter((product: object | any) => {
+        result.filter((product: ProductDetailProps) => {
           return product.category === name
         })
       )
@@ -42,8 +42,11 @@ export default function DynamicPage() {
   const toyData = async (name: string) => {
     const result = await getToyData()
     setSearch(
-      result.filter((product: object | any) => {
-        return product.category.toLowerCase().includes(name.toLowerCase())
+      result.filter((product: ProductDetailProps) => {
+        return (
+          product.category &&
+          product.category.toLowerCase().includes(name.toLowerCase())
+        )
       })
     )
   }
@@ -53,25 +56,29 @@ export default function DynamicPage() {
       setSearch(result)
     } else {
       setSearch(
-        result.filter((product: object | any) => {
+        result.filter((product: ProductDetailProps) => {
           return product.category === name
         })
       )
     }
   }
-  const kitchenData = async (name: string) => {
+  const kitchenData = async () => {
     const result = await getKitchenData()
     setSearch(result)
   }
 
-  const bookData = async (name: string) => {
-    const result = await getBookData()
-    setSearch(
-      result.filter((product: object | any) => {
-        return product.category === name
-      })
-    )
-  }
+  // const bookData = async (name: string) => {
+  //   const result = await getBookData()
+  //   setSearch(
+  //     result.filter((product: ProductDetailProps) => {
+  //       return product.category === name
+  //     })
+  //   )
+  // }
+  const formattedName =
+    typeof name === 'string'
+      ? name.replace(/%20/gi, ' ').replace(/%26/g, ' & ')
+      : ''
 
   useEffect(() => {
     if (name === 'Game') gameData(formattedName)
@@ -99,13 +106,8 @@ export default function DynamicPage() {
       name === 'Fashions'
     )
       fashionData(formattedName)
-    if (name === 'kitchen') kitchenData(formattedName)
-  }, [])
-
-  const formattedName =
-    typeof name === 'string'
-      ? name.replace(/%20/gi, ' ').replace(/%26/g, ' & ')
-      : ''
+    if (name === 'kitchen') kitchenData()
+  }, [formattedName, name])
 
   const [indexOfRating, setIndexOfRating] = useState(-1)
   return (
@@ -119,7 +121,7 @@ export default function DynamicPage() {
         <div className='shadow-inner shadow-gray-300 pt-5 pl-1'>
           <h3 className='text-[24px] font-bold'>Results</h3>
           <div className='flex flex-col gap-4'>
-            {search.map((product: object | any, index) => {
+            {search.map((product: ProductDetailProps, index) => {
               return (
                 <div key={index}>
                   <ProductDetail

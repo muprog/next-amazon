@@ -146,12 +146,13 @@
 // }
 
 'use client'
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useState } from 'react'
 import MyContext from '../ContextApi/MyContext'
 import { cartDataProps } from '@/Types'
 import Link from 'next/link'
 import React from 'react'
 import Button from '../Button/Button'
+import Image from 'next/image'
 
 interface cartDataType {
   item: cartDataProps
@@ -164,12 +165,12 @@ export default function CartDataStructure({
 }: // savedForLater,
 // setSavedForLater,
 cartDataType) {
+  const [loading, setLoading] = useState(false)
+  const [imageLoading, setImageLoading] = useState(true)
   const context = useContext(MyContext)
   if (!context) return <div>Loading</div>
 
-  const { cartData, setCartData, savedForLater, setSavedForLater } = context
-  const [loading, setLoading] = useState(false)
-  const [imageLoading, setImageLoading] = useState(true)
+  const { setCartData, setSavedForLater } = context
 
   const handleUpdateQuantity = (type: 'increase' | 'decrease') => {
     setLoading(true) // Show loading animation
@@ -237,9 +238,10 @@ cartDataType) {
             🔄
           </div>
         )}
-        <img
+        <Image
           src={`${item.product.image?.[0]}`}
           alt={`${item?.product?.name}`}
+          fill
           className={`w-full h-[150px] ${imageLoading ? 'hidden' : 'block'}`}
           onLoad={() => setImageLoading(false)}
           onError={() => setImageLoading(false)}
@@ -275,9 +277,11 @@ cartDataType) {
                     handleClick={() => handleUpdateQuantity('decrease')}
                   />
                 ) : (
-                  <img
+                  <Image
                     src='/delete.svg'
                     alt='del'
+                    width={18}
+                    height={18}
                     className='w-[18px] h-[18px] cursor-pointer'
                     onClick={() => handleUpdateQuantity('decrease')}
                   />

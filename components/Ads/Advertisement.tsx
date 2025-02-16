@@ -114,7 +114,7 @@ export default function Advertisement() {
       goToNext()
     }, 10000)
     return () => clearInterval(intervalId)
-  }, [])
+  })
 
   return (
     <div className='absolute w-full min-h-[400px] h-screen overflow-hidden'>

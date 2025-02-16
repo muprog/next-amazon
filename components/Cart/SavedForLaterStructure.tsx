@@ -4,6 +4,7 @@ import React from 'react'
 import Button from '../Button/Button'
 import { useContext } from 'react'
 import MyContext from '../ContextApi/MyContext'
+import Image from 'next/image'
 interface savedForLaterType {
   save: cartDataProps
   // savedForLater: cartDataProps[]
@@ -38,7 +39,7 @@ savedForLaterType) {
         return prev
       }
     })
-    setSavedForLater((prev) => {
+    setSavedForLater(() => {
       return savedForLater.filter((saved) => filtered[0] != saved)
     })
   }
@@ -64,9 +65,10 @@ savedForLaterType) {
     <div className='w-[240px]  flex flex-col border pb-10 p-2'>
       <div className='w-full flex justify-center'>
         <div className='relative w-[200px] h-[200px]'>
-          <img
+          <Image
             src={`${save.product.image?.[0]}`}
             alt='image'
+            fill
             className='object-contain h-[200px]'
           />
         </div>

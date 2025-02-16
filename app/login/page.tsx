@@ -44,7 +44,7 @@ export default function Page() {
           </div>
           <div>
             <p>
-              By continuing, you agree to Amazon's{' '}
+              By continuing, you agree to Amazon&apos;s{' '}
               <Link
                 href={'conditions_of_use'}
                 className='text-amazon-blue underline'

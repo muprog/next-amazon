@@ -45,6 +45,7 @@
 
 import React from 'react'
 import { ProductDetailProps } from '@/Types'
+import Image from 'next/image'
 
 type RelatedProductsProps = {
   products: ProductDetailProps[]
@@ -70,11 +71,17 @@ const RelatedProducts: React.FC<RelatedProductsProps> = ({
             key={product.id}
             className='p-4 border rounded-lg shadow-lg hover:shadow-xl transition duration-300'
           >
-            <img
-              src={product.image?.[0]}
-              alt={product.name}
-              className='w-full h-40 object-cover rounded-lg mb-3'
-            />
+            <div className='relative w-full h-40'>
+              <Image
+                src={
+                  product.image?.[0] ? product.image?.[0] : '/image/noimage.png'
+                }
+                alt={`${product.name}`}
+                fill
+                className='w-full h-40 object-cover rounded-lg mb-3'
+              />
+            </div>
+
             <h3 className='text-lg font-medium'>{product.name}</h3>
             <p className='text-gray-600'>{product.description}</p>
             <p className='text-primary font-semibold mt-2'>${product.price}</p>

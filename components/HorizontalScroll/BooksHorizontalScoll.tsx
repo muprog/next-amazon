@@ -313,7 +313,7 @@ export default function BooksHorizontalScroll() {
             transform: `translateX(-${currentIndex * 130}px)`,
           }}
         >
-          {books.map((book, index) => (
+          {books.map((book) => (
             <div key={book.id} className='flex-shrink-0 w-[130px]'>
               <BookStructure book={book} />
             </div>
