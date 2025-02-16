@@ -233,16 +233,11 @@ cartDataType) {
   return (
     <div className='pl-5 md:w-full flex flex-col sm:flex-col md:flex-row w-[300px] items-start mt-0 overflow-scroll scrollbar-hide border-2 p-2 md:border-none'>
       <div className='relative md:w-[150px] w-[200px] h-[150px] flex-shrink-0'>
-        {imageLoading && (
-          <div className='w-full h-[150px] flex items-center justify-center'>
-            🔄
-          </div>
-        )}
         <Image
           src={`${item.product.image?.[0]}`}
           alt={`${item?.product?.name}`}
           fill
-          className={`w-full h-[150px] ${imageLoading ? 'hidden' : 'block'}`}
+          className={`w-full h-[150px]`}
           onLoad={() => setImageLoading(false)}
           onError={() => setImageLoading(false)}
         />
