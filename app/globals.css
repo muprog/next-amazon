@@ -6,7 +6,7 @@
   @apply hover:border w-[50px] h-[30px];
 }
 .header-font {
-  @apply text-[10px] text-nowrap hover:border h-[30px] cursor-pointer;
+  @apply text-[14px] text-nowrap hover:border h-full cursor-pointer flex items-center;
 }
 .header-bold-font {
   @apply font-bold;
@@ -15,5 +15,29 @@
   @apply relative w-full h-[100vh] flex-shrink-0;
 }
 .fourproduct-name {
-  @apply text-[7px] text-nowrap font-light;
+  @apply text-[10px] text-nowrap font-light;
+}
+
+.productDetailTr {
+  @apply flex w-full justify-between gap-2;
+}
+.percentageTd {
+  @apply flex-1  text-center;
+}
+/* .loader {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid #f97316; /* Orange color for Amazon theme *
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+} */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

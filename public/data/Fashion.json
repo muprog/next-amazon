@@ -8,8 +8,20 @@
     "category": "Jeans",
     "size": "30, 32, 34, 36",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/713y+OqVbOS._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.5
+    "image": [
+      "https://m.media-amazon.com/images/I/713y+OqVbOS._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.5,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Blue VO!CE technology",
+      "Detachable microphone",
+      "50mm drivers"
+    ]
   },
   {
     "id": 2,
@@ -20,8 +32,20 @@
     "category": "Jeans",
     "size": "26, 28, 30, 32",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.2
+    "image": [
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/713y+OqVbOS._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.2,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "THX 7.1 surround sound",
+      "50mm TriForce Titanium drivers",
+      "Breathable memory foam"
+    ]
   },
   {
     "id": 3,
@@ -32,8 +56,20 @@
     "category": "Jeans",
     "size": "28, 30, 32, 34",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/61TMhyCT2bL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.6
+    "image": [
+      "https://m.media-amazon.com/images/I/61TMhyCT2bL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/713y+OqVbOS._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.6,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Wireless",
+      "Active noise cancellation",
+      "High-fidelity audio",
+      "Dual battery system"
+    ]
   },
   {
     "id": 4,
@@ -44,8 +80,20 @@
     "category": "Tops",
     "size": "S, M, L, XL",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/713y+OqVbOS._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Broadcast-quality microphone",
+      "Hi-res audio",
+      "RGB lighting"
+    ]
   },
   {
     "id": 5,
@@ -56,8 +104,20 @@
     "category": "Tops",
     "size": "XS, S, M, L, XL",
     "material": "Cotton",
-    "image": "https://m.media-amazon.com/images/I/71y+6BQ7EzL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.7
+    "image": [
+      "https://m.media-amazon.com/images/I/71y+6BQ7EzL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.7,
+    "brand": "HyperX",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "7.1 surround sound",
+      "53mm drivers",
+      "Memory foam ear cushions"
+    ]
   },
   {
     "id": 6,
@@ -68,8 +128,20 @@
     "category": "Tops",
     "size": "XS, S, M, L",
     "material": "Polyester",
-    "image": "https://m.media-amazon.com/images/I/81fX-+cWN8L._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.1
+    "image": [
+      "https://m.media-amazon.com/images/I/81fX-+cWN8L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.1,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Opto-mechanical switches",
+      "Customizable RGB lighting",
+      "Magnetic wrist rest",
+      "Dedicated media controls"
+    ]
   },
   {
     "id": 7,
@@ -80,8 +152,20 @@
     "category": "Tops",
     "size": "S, M, L",
     "material": "Chiffon",
-    "image": "https://m.media-amazon.com/images/I/61YLHBf-frL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.4
+    "image": [
+      "https://m.media-amazon.com/images/I/61YLHBf-frL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.4,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Low-profile mechanical switches",
+      "RGB lighting",
+      "Durable aluminum alloy"
+    ]
   },
   {
     "id": 8,
@@ -92,8 +176,20 @@
     "category": "Dresses",
     "size": "S, M, L, XL",
     "material": "Rayon",
-    "image": "https://unsplash.com/photos/k4yC0RDxQlU",
-    "rating": 4.8
+    "image": [
+      "https://m.media-amazon.com/images/I/71Be5H7VQ9L._AC_SX342_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.8,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Adjustable mechanical switches",
+      "OLED smart display",
+      "RGB lighting",
+      "Aircraft-grade aluminum alloy"
+    ]
   },
   {
     "id": 9,
@@ -104,8 +200,20 @@
     "category": "Dresses",
     "size": "XS, S, M, L",
     "material": "Spandex",
-    "image": "https://unsplash.com/photos/VZILmqwS-uE",
-    "rating": 4.2
+    "image": [
+      "https://m.media-amazon.com/images/I/61cdiNP+PDS._AC_SX342_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.2,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Mechanical switches",
+      "6 dedicated macro keys",
+      "RGB lighting",
+      "Aircraft-grade aluminum frame"
+    ]
   },
   {
     "id": 10,
@@ -116,8 +224,20 @@
     "category": "Dresses",
     "size": "S, M, L, XL",
     "material": "Polyester",
-    "image": "https://unsplash.com/photos/8ti0gXp_jtg",
-    "rating": 4.6
+    "image": [
+      "https://m.media-amazon.com/images/I/61k1uzxLyHL._AC_SY445_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.6,
+    "brand": "Ducky",
+    "warranty": "1 year",
+    "features": [
+      "Compact design",
+      "PBT keycaps",
+      "RGB lighting",
+      "Cherry MX switches"
+    ]
   },
   {
     "id": 11,
@@ -128,8 +248,20 @@
     "category": "Shoes",
     "size": "6, 7, 8, 9, 10",
     "material": "Mesh, Rubber",
-    "image": "https://unsplash.com/photos/JK8gT0cCYLw",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/71k2ZobLduL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Blue VO!CE technology",
+      "Detachable microphone",
+      "50mm drivers"
+    ]
   },
   {
     "id": 12,
@@ -140,8 +272,20 @@
     "category": "Shoes",
     "size": "6, 7, 8, 9",
     "material": "Leather",
-    "image": "https://unsplash.com/photos/fpUoClyI3M0",
-    "rating": 4.0
+    "image": [
+      "https://m.media-amazon.com/images/I/61G83uQGUXL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.0,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "THX 7.1 surround sound",
+      "50mm TriForce Titanium drivers",
+      "Breathable memory foam"
+    ]
   },
   {
     "id": 13,
@@ -152,8 +296,20 @@
     "category": "Shoes",
     "size": "7, 8, 9, 10, 11",
     "material": "Mesh, Foam",
-    "image": "https://unsplash.com/photos/tWIysHnY_lw",
-    "rating": 4.9
+    "image": [
+      "https://m.media-amazon.com/images/I/414egjgn-uL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.9,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Wireless",
+      "Active noise cancellation",
+      "High-fidelity audio",
+      "Dual battery system"
+    ]
   },
   {
     "id": 14,
@@ -164,8 +320,20 @@
     "category": "Shoes",
     "size": "8, 9, 10, 11",
     "material": "Suede",
-    "image": "https://unsplash.com/photos/yNV9MMJg_qI",
-    "rating": 4.7
+    "image": [
+      "https://m.media-amazon.com/images/I/81kBzsXbooL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.7,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Broadcast-quality microphone",
+      "Hi-res audio",
+      "RGB lighting"
+    ]
   },
   {
     "id": 15,
@@ -176,8 +344,20 @@
     "category": "Jeans",
     "size": "28, 30, 32, 34",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/51VROSt4vbL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.4
+    "image": [
+      "https://m.media-amazon.com/images/I/51VROSt4vbL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.4,
+    "brand": "HyperX",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "7.1 surround sound",
+      "53mm drivers",
+      "Memory foam ear cushions"
+    ]
   },
   {
     "id": 16,
@@ -188,8 +368,20 @@
     "category": "Tops",
     "size": "S, M, L",
     "material": "Silk",
-    "image": "https://m.media-amazon.com/images/I/61VXOrqsTyS._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/61VXOrqsTyS._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Opto-mechanical switches",
+      "Customizable RGB lighting",
+      "Magnetic wrist rest",
+      "Dedicated media controls"
+    ]
   },
   {
     "id": 17,
@@ -200,8 +392,20 @@
     "category": "Jeans",
     "size": "26, 28, 30, 32",
     "material": "Denim",
-    "image": "https://m.media-amazon.com/images/I/613E1WTujAL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.5
+    "image": [
+      "https://m.media-amazon.com/images/I/613E1WTujAL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.5,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Low-profile mechanical switches",
+      "RGB lighting",
+      "Durable aluminum alloy"
+    ]
   },
   {
     "id": 18,
@@ -212,8 +416,20 @@
     "category": "Dresses",
     "size": "S, M, L, XL",
     "material": "Polyester",
-    "image": "https://unsplash.com/photos/7LEt8j-gjog",
-    "rating": 4.7
+    "image": [
+      "https://m.media-amazon.com/images/I/613I6RZ4pEL._AC_SY445_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.7,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Adjustable mechanical switches",
+      "OLED smart display",
+      "RGB lighting",
+      "Aircraft-grade aluminum alloy"
+    ]
   },
   {
     "id": 19,
@@ -224,8 +440,20 @@
     "category": "Shoes",
     "size": "7, 8, 9, 10",
     "material": "Leather",
-    "image": "https://unsplash.com/photos/eaP6rEOTvaQ",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/61hNOk6pk7L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Mechanical switches",
+      "6 dedicated macro keys",
+      "RGB lighting",
+      "Aircraft-grade aluminum frame"
+    ]
   },
   {
     "id": 20,
@@ -236,7 +464,19 @@
     "category": "Dresses",
     "size": "XS, S, M, L",
     "material": "Cotton Blend",
-    "image": "https://unsplash.com/photos/hIXmJH9x9O8",
-    "rating": 4.6
+    "image": [
+      "https://m.media-amazon.com/images/I/71fdovYb78L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/41jKff8qZQL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71tk62RJUqL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.6,
+    "brand": "Ducky",
+    "warranty": "1 year",
+    "features": [
+      "Compact design",
+      "PBT keycaps",
+      "RGB lighting",
+      "Cherry MX switches"
+    ]
   }
 ]

@@ -6,8 +6,20 @@
     "price": 199.99,
     "stock": 25,
     "category": "Audio",
-    "image": "https://media.istockphoto.com/id/1334985601/photo/notebook-with-headphones-with-mic-and-a-webcam-concept-of-smart-working-or-online.jpg?s=1024x1024&w=is&k=20&c=EhOMnXbQEBRrmwYh-hjOQFf2q__3fd4Eza5jNc3Yu88=",
-    "rating": 4.5
+    "image": [
+      "https://media.istockphoto.com/id/1334985601/photo/notebook-with-headphones-with-mic-and-a-webcam-concept-of-smart-working-or-online.jpg?s=1024x1024&w=is&k=20&c=EhOMnXbQEBRrmwYh-hjOQFf2q__3fd4Eza5jNc3Yu88=",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.5,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Blue VO!CE technology",
+      "Detachable microphone",
+      "50mm drivers"
+    ]
   },
   {
     "id": 2,
@@ -16,8 +28,20 @@
     "price": 179.99,
     "stock": 30,
     "category": "Audio",
-    "image": "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
-    "rating": 4.7
+    "image": [
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/1334985601/photo/notebook-with-headphones-with-mic-and-a-webcam-concept-of-smart-working-or-online.jpg?s=1024x1024&w=is&k=20&c=EhOMnXbQEBRrmwYh-hjOQFf2q__3fd4Eza5jNc3Yu88=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.7,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "THX 7.1 surround sound",
+      "50mm TriForce Titanium drivers",
+      "Breathable memory foam"
+    ]
   },
   {
     "id": 3,
@@ -26,8 +50,20 @@
     "price": 349.99,
     "stock": 20,
     "category": "Audio",
-    "image": "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8=",
-    "rating": 4.8
+    "image": [
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8=",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/1001802290/photo/small-black-wired-gaming-headset-lying-on-the-keyboard-of-a-notebook.jpg?s=612x612&w=0&k=20&c=AVGacxuTGT2G89s-Lfp3VHKjGrJLpX887s-0m-eubs8="
+    ],
+    "rating": 4.8,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Wireless",
+      "Active noise cancellation",
+      "High-fidelity audio",
+      "Dual battery system"
+    ]
   },
   {
     "id": 4,
@@ -36,8 +72,20 @@
     "price": 269.99,
     "stock": 15,
     "category": "Audio",
-    "image": "https://media.istockphoto.com/id/1001802290/photo/small-black-wired-gaming-headset-lying-on-the-keyboard-of-a-notebook.jpg?s=612x612&w=0&k=20&c=AVGacxuTGT2G89s-Lfp3VHKjGrJLpX887s-0m-eubs8=",
-    "rating": 4.3
+    "image": [
+      "https://media.istockphoto.com/id/1001802290/photo/small-black-wired-gaming-headset-lying-on-the-keyboard-of-a-notebook.jpg?s=612x612&w=0&k=20&c=AVGacxuTGT2G89s-Lfp3VHKjGrJLpX887s-0m-eubs8=",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.3,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Broadcast-quality microphone",
+      "Hi-res audio",
+      "RGB lighting"
+    ]
   },
   {
     "id": 5,
@@ -46,8 +94,20 @@
     "price": 149.99,
     "stock": 40,
     "category": "Audio",
-    "image": "https://media.istockphoto.com/id/1389235290/photo/computer-magnifying-glass-glasses-headphones-and-mobile-phone-on-white-background-board.jpg?s=612x612&w=0&k=20&c=3SXRIr1XprlLmGe-A1p56S1mQEvRFoVnRelrHA51VGY=",
-    "rating": 4.6
+    "image": [
+      "https://media.istockphoto.com/id/1389235290/photo/computer-magnifying-glass-glasses-headphones-and-mobile-phone-on-white-background-board.jpg?s=612x612&w=0&k=20&c=3SXRIr1XprlLmGe-A1p56S1mQEvRFoVnRelrHA51VGY=",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.6,
+    "brand": "HyperX",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "7.1 surround sound",
+      "53mm drivers",
+      "Memory foam ear cushions"
+    ]
   },
   {
     "id": 6,
@@ -56,8 +116,20 @@
     "price": 199.99,
     "stock": 35,
     "category": "Keyboards",
-    "image": "https://images.unsplash.com/photo-1555100836-d98eb95c6c16?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.4
+    "image": [
+      "https://images.unsplash.com/photo-1555100836-d98eb95c6c16?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.4,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Opto-mechanical switches",
+      "Customizable RGB lighting",
+      "Magnetic wrist rest",
+      "Dedicated media controls"
+    ]
   },
   {
     "id": 7,
@@ -66,8 +138,20 @@
     "price": 229.99,
     "stock": 25,
     "category": "Keyboards",
-    "image": "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.5
+    "image": [
+      "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.5,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Low-profile mechanical switches",
+      "RGB lighting",
+      "Durable aluminum alloy"
+    ]
   },
   {
     "id": 8,
@@ -76,8 +160,20 @@
     "price": 199.99,
     "stock": 20,
     "category": "Keyboards",
-    "image": "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.6
+    "image": [
+      "https://plus.unsplash.com/premium_photo-1664194583917-b0ba07c4ce2a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.6,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Adjustable mechanical switches",
+      "OLED smart display",
+      "RGB lighting",
+      "Aircraft-grade aluminum alloy"
+    ]
   },
   {
     "id": 9,
@@ -86,8 +182,20 @@
     "price": 159.99,
     "stock": 30,
     "category": "Keyboards",
-    "image": "https://images.unsplash.com/photo-1629360652431-cde31a9d7a24?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.2
+    "image": [
+      "https://images.unsplash.com/photo-1629360652431-cde31a9d7a24?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.2,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Mechanical switches",
+      "6 dedicated macro keys",
+      "RGB lighting",
+      "Aircraft-grade aluminum frame"
+    ]
   },
   {
     "id": 10,
@@ -96,8 +204,20 @@
     "price": 109.99,
     "stock": 50,
     "category": "Keyboards",
-    "image": "https://images.unsplash.com/photo-1582078926662-b63927d0108d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
-    "rating": 4.8
+    "image": [
+      "https://images.unsplash.com/photo-1582078926662-b63927d0108d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.8,
+    "brand": "Ducky",
+    "warranty": "1 year",
+    "features": [
+      "Compact design",
+      "PBT keycaps",
+      "RGB lighting",
+      "Cherry MX switches"
+    ]
   },
   {
     "id": 11,
@@ -106,8 +226,20 @@
     "price": 159.99,
     "stock": 30,
     "category": "Mice",
-    "image": "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.7
+    "image": [
+      "https://images.unsplash.com/photo-1551515300-2d3b7bb80920?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.7,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Blue VO!CE technology",
+      "Detachable microphone",
+      "50mm drivers"
+    ]
   },
   {
     "id": 12,
@@ -116,8 +248,20 @@
     "price": 149.99,
     "stock": 25,
     "category": "Mice",
-    "image": "https://media.istockphoto.com/id/1339268376/photo/computer-equipment.webp?a=1&s=612x612&w=0&k=20&c=ZqH1hkOqO0j7dJeuWhzr7gjDc_Hm6-xRtEA9rlvEJ90=",
-    "rating": 4.5
+    "image": [
+      "https://media.istockphoto.com/id/1339268376/photo/computer-equipment.webp?a=1&s=612x612&w=0&k=20&c=ZqH1hkOqO0j7dJeuWhzr7gjDc_Hm6-xRtEA9rlvEJ90=",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.5,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "THX 7.1 surround sound",
+      "50mm TriForce Titanium drivers",
+      "Breathable memory foam"
+    ]
   },
   {
     "id": 13,
@@ -126,8 +270,20 @@
     "price": 149.99,
     "stock": 20,
     "category": "Mice",
-    "image": "https://images.unsplash.com/photo-1554576575-a4e7b6e8409d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.4
+    "image": [
+      "https://images.unsplash.com/photo-1554576575-a4e7b6e8409d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.4,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Wireless",
+      "Active noise cancellation",
+      "High-fidelity audio",
+      "Dual battery system"
+    ]
   },
   {
     "id": 14,
@@ -136,8 +292,20 @@
     "price": 129.99,
     "stock": 35,
     "category": "Mice",
-    "image": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.9
+    "image": [
+      "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.9,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Broadcast-quality microphone",
+      "Hi-res audio",
+      "RGB lighting"
+    ]
   },
   {
     "id": 15,
@@ -146,8 +314,20 @@
     "price": 89.99,
     "stock": 40,
     "category": "Mice",
-    "image": "https://images.unsplash.com/photo-1599779600619-1012639ed04b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
-    "rating": 4.3
+    "image": [
+      "https://images.unsplash.com/photo-1599779600619-1012639ed04b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.3,
+    "brand": "HyperX",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "7.1 surround sound",
+      "53mm drivers",
+      "Memory foam ear cushions"
+    ]
   },
   {
     "id": 16,
@@ -156,8 +336,20 @@
     "price": 499.99,
     "stock": 15,
     "category": "Chairs",
-    "image": "https://m.media-amazon.com/images/I/61VOqmD742L._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.6
+    "image": [
+      "https://m.media-amazon.com/images/I/61VOqmD742L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.6,
+    "brand": "Razer",
+    "warranty": "2 years",
+    "features": [
+      "Opto-mechanical switches",
+      "Customizable RGB lighting",
+      "Magnetic wrist rest",
+      "Dedicated media controls"
+    ]
   },
   {
     "id": 17,
@@ -166,8 +358,20 @@
     "price": 399.99,
     "stock": 20,
     "category": "Chairs",
-    "image": "https://m.media-amazon.com/images/I/712Pv0pZjiL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.2
+    "image": [
+      "https://m.media-amazon.com/images/I/712Pv0pZjiL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.2,
+    "brand": "Logitech",
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Low-profile mechanical switches",
+      "RGB lighting",
+      "Durable aluminum alloy"
+    ]
   },
   {
     "id": 18,
@@ -176,8 +380,20 @@
     "price": 349.99,
     "stock": 25,
     "category": "Chairs",
-    "image": "https://m.media-amazon.com/images/I/71xFvq+A9EL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.4
+    "image": [
+      "https://m.media-amazon.com/images/I/71xFvq+A9EL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.4,
+    "brand": "SteelSeries",
+    "warranty": "1 year",
+    "features": [
+      "Adjustable mechanical switches",
+      "OLED smart display",
+      "RGB lighting",
+      "Aircraft-grade aluminum alloy"
+    ]
   },
   {
     "id": 19,
@@ -186,8 +402,20 @@
     "price": 299.99,
     "stock": 30,
     "category": "Chairs",
-    "image": "https://m.media-amazon.com/images/I/71-tTLbGokL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.1
+    "image": [
+      "https://m.media-amazon.com/images/I/71-tTLbGokL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.1,
+    "brand": "Corsair",
+    "warranty": "2 years",
+    "features": [
+      "Mechanical switches",
+      "6 dedicated macro keys",
+      "RGB lighting",
+      "Aircraft-grade aluminum frame"
+    ]
   },
   {
     "id": 20,
@@ -196,7 +424,19 @@
     "price": 429.99,
     "stock": 18,
     "category": "Chairs",
-    "image": "https://m.media-amazon.com/images/I/61yzRd+LN+L._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.8
+    "image": [
+      "https://m.media-amazon.com/images/I/61yzRd+LN+L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://media.istockphoto.com/id/864303974/photo/closeup-headset-on-laptop-keyboard-4.jpg?s=612x612&w=is&k=20&c=S4ArMU1b-wP6XFw1pcAHjjyX85KXFCLBlIVp4YOKPOE=",
+      "https://media.istockphoto.com/id/639838618/photo/wireless-headphones-and-laptop-computer.jpg?s=612x612&w=0&k=20&c=AkDSi8QwKgUDBw7b8NgL2fTVuuPSL0Ly8T77Q3ecTr8="
+    ],
+    "rating": 4.8,
+    "brand": "Ducky",
+    "warranty": "1 year",
+    "features": [
+      "Compact design",
+      "PBT keycaps",
+      "RGB lighting",
+      "Cherry MX switches"
+    ]
   }
 ]

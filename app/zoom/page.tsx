@@ -1,3 +1,5 @@
+//
+
 'use client'
 import { useState, useRef } from 'react'
 import Image from 'next/image'
@@ -5,15 +7,15 @@ import Image from 'next/image'
 const ZoomImage = () => {
   const [position, setPosition] = useState({ x: 0, y: 0, show: false })
   const imageRef = useRef<HTMLDivElement>(null)
-
-  const zoomFactor = 2 // Adjust the zoom level
+  const zoomFactor = 3 // Zoom factor for high resolution
+  const zoomBoxSize = 30 // Size of the hover indicator
+  const containerWidth = 40 // Width of the image container
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!imageRef.current) return
 
     const { left, top, width, height } =
       imageRef.current.getBoundingClientRect()
-
     let x = e.clientX - left
     let y = e.clientY - top
 
@@ -21,8 +23,8 @@ const ZoomImage = () => {
     let xPercent = (x / width) * 100
     let yPercent = (y / height) * 100
 
-    // Ensure hover boundaries
-    if (xPercent < 0 || xPercent > 100 || yPercent < 0 || yPercent > 100) {
+    // Ensure boundaries
+    if (x < 0 || x > width || y < 0 || y > height) {
       setPosition({ ...position, show: false })
       return
     }
@@ -35,57 +37,66 @@ const ZoomImage = () => {
   }
 
   return (
-    <div className='relative flex gap-5'>
-      {/* Original Image */}
+    <div className='flex gap-5 pt-10'>
+      {/* Full Image (Original Position) */}
       <div
         ref={imageRef}
-        className='relative w-64 h-64 border border-gray-300 overflow-hidden'
+        className='relative'
+        style={{
+          width: `${containerWidth}vw`,
+          height: '80vh',
+          overflow: 'hidden',
+        }}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
         <Image
-          src='/image/ads/beauty.jpg' // ✅ Corrected Local Image Path
-          alt='Zoomable Image'
-          width={256}
-          height={256}
+          src='/image/Books/HOUSEMAID.jpg' // Updated image URL
+          alt='Product Image'
+          width={600}
+          height={600}
           className='w-full h-full object-cover'
         />
-        {/* Hover Indicator */}
+
+        {/* Transparent Hover Indicator */}
         {position.show && (
           <div
-            className='absolute w-16 h-16 border border-blue-500 bg-white/30 pointer-events-none'
+            className='absolute rounded-full bg-gray-300 opacity-30'
             style={{
-              top: `${position.y}%`,
-              left: `${position.x}%`,
-              transform: 'translate(-50%, -50%)',
+              width: `${zoomBoxSize}px`,
+              height: `${zoomBoxSize}px`,
+              left: `calc(${position.x}% - ${zoomBoxSize / 2}px)`,
+              top: `calc(${position.y}% - ${zoomBoxSize / 2}px)`,
+              pointerEvents: 'none',
             }}
-          ></div>
+          />
         )}
       </div>
 
-      {/* Zoomed Image Preview */}
-      <div className='relative w-64 h-64 border border-gray-300 overflow-hidden bg-white'>
-        {position.show && (
+      {/* Zoomed Hovered Part (High Resolution in the next position) */}
+      {position.show && (
+        <div
+          className='relative'
+          style={{
+            width: `${containerWidth}vw`,
+            height: '80vh',
+            overflow: 'hidden',
+            border: '1px solid gray',
+          }}
+        >
           <div
             className='absolute'
             style={{
-              width: `${zoomFactor * 100}%`,
-              height: `${zoomFactor * 100}%`,
-              top: `${-position.y * zoomFactor}%`,
-              left: `${-position.x * zoomFactor}%`,
-              transform: 'translate(50%, 50%)',
+              width: '100%',
+              height: '100%',
+              backgroundImage: "url('/image/Books/HOUSEMAID.jpg')",
+              backgroundSize: `${zoomFactor * 100}%`,
+              backgroundPosition: `${position.x}% ${position.y}%`,
+              pointerEvents: 'none',
             }}
-          >
-            <Image
-              src='/image/ads/beauty.jpg' // ✅ Corrected Local Image Path
-              alt='Zoomed Image'
-              width={512}
-              height={512}
-              className='w-full h-full object-cover'
-            />
-          </div>
-        )}
-      </div>
+          />
+        </div>
+      )}
     </div>
   )
 }

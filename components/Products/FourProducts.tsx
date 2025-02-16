@@ -7,9 +7,9 @@ export default function FourProducts(product: FourProductsProps) {
   return (
     <div>
       {product.product.images.length > 1 ? (
-        <div className='bg-white min-w-[150px] max-w-[250px] h-[250px] flex flex-col items-center justify-center p-4'>
-          <div className='w-full pt-2'>
-            <h3 className='font-semibold text-[13px] mb-4'>
+        <div className='bg-white min-w-[180px] max-w-[350px] h-[350px] flex flex-col items-center justify-center p-4'>
+          <div className='w-full pt-2 min-h-[50px]'>
+            <h3 className='font-bold text-[16px] mb-4'>
               {product.product.title}
             </h3>
           </div>
@@ -20,7 +20,7 @@ export default function FourProducts(product: FourProductsProps) {
                 <Link href={`/category/${encodeURIComponent(name)}`}>
                   {' '}
                   {/* Use only one name from the array */}
-                  <div className='min-w-[60px] max-w-[70px] min-h-[50px] max-h-[60px] relative'>
+                  <div className='min-w-[80px] max-w-[110px] min-h-[90px] max-h-[100px] relative'>
                     <Image
                       src={`${product.product.images[index]}`}
                       alt={name}
@@ -38,14 +38,14 @@ export default function FourProducts(product: FourProductsProps) {
               </div>
             ))}
           </div>
-          <div className='w-full text-[7px] text-blue-500 '>
+          <div className='w-full text-[12px] text-blue-500 '>
             <Link href={`${product.product.more}`}>{product.product.link}</Link>
           </div>
         </div>
       ) : (
-        <div className='bg-white min-w-[150px] max-w-[200px] h-[250px] flex flex-col items-center justify-center p-4'>
-          <div>
-            <h3 className='font-semibold text-[13px] mb-4'>
+        <div className='bg-white min-w-[180px] max-w-[350px] h-[350px] flex flex-col items-center justify-center p-4'>
+          <div className='w-full pt-2 min-h-[50px]'>
+            <h3 className='font-semibold text-[16px] mb-4 '>
               {product.product.title}
             </h3>
           </div>
@@ -59,7 +59,7 @@ export default function FourProducts(product: FourProductsProps) {
             >
               {' '}
               {/* Use the first name from the array */}
-              <div className='relative w-full h-[160px]'>
+              <div className='relative w-full h-[250px]'>
                 <Image
                   src={`${product.product.images[0]}`}
                   alt='product'
@@ -70,7 +70,7 @@ export default function FourProducts(product: FourProductsProps) {
             </Link>
           </div>
 
-          <div className='w-full text-[7px] text-blue-500 pt-2'>
+          <div className='w-full text-[12px] text-blue-500 pt-2'>
             <Link href={`/category/${product.product.more}`}>
               {product.product.link}
             </Link>

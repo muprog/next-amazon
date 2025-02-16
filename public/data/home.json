@@ -8,7 +8,11 @@
     "category": "Decor",
     "dimensions": "18 x 18 inches",
     "material": "Cotton",
-    "image": "https://m.media-amazon.com/images/I/71fJtqXhNEL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71fJtqXhNEL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.5
   },
   {
@@ -20,7 +24,11 @@
     "category": "Decor",
     "dimensions": "12 x 6 inches",
     "material": "Ceramic",
-    "image": "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81dnPpZT+GL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.7
   },
   {
@@ -32,7 +40,11 @@
     "category": "Bedding",
     "dimensions": "90 x 100 inches",
     "material": "Polyester",
-    "image": "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/81dnPpZT+GL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.3
   },
   {
@@ -44,7 +56,11 @@
     "category": "Storage",
     "dimensions": "24 x 12 x 6 inches",
     "material": "Canvas",
-    "image": "https://m.media-amazon.com/images/I/81dnPpZT+GL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81dnPpZT+GL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.6
   },
   {
@@ -56,7 +72,11 @@
     "category": "Decor",
     "dimensions": "5 x 7 feet",
     "material": "Cotton",
-    "image": "https://m.media-amazon.com/images/I/61EHHHLPVYL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/61EHHHLPVYL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.8
   },
   {
@@ -68,7 +88,11 @@
     "category": "Cleaning",
     "dimensions": "20 x 14 x 10 inches",
     "material": "Plastic",
-    "image": "https://m.media-amazon.com/images/I/51dc5UDvuqL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/51dc5UDvuqL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.1
   },
   {
@@ -80,7 +104,11 @@
     "category": "Storage",
     "dimensions": "36 x 8 inches",
     "material": "Wood",
-    "image": "https://m.media-amazon.com/images/I/81dW8b14-mL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81dW8b14-mL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.4
   },
   {
@@ -92,7 +120,11 @@
     "category": "Bedding",
     "dimensions": "King Size",
     "material": "Cotton",
-    "image": "https://m.media-amazon.com/images/I/91+vECJ8t-L._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/91+vECJ8t-L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.2
   },
   {
@@ -104,7 +136,11 @@
     "category": "Storage",
     "dimensions": "16 x 12 x 8 inches",
     "material": "Plastic",
-    "image": "https://m.media-amazon.com/images/I/616A4JrOMzL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/616A4JrOMzL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.5
   },
   {
@@ -116,7 +152,11 @@
     "category": "Bedding",
     "dimensions": "60 x 80 inches",
     "material": "Fleece",
-    "image": "https://m.media-amazon.com/images/I/41YgNAfjX9L._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/41YgNAfjX9L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.6
   },
   {
@@ -128,7 +168,11 @@
     "category": "Decor",
     "dimensions": "3 x 3 inches each",
     "material": "Wax",
-    "image": "https://m.media-amazon.com/images/I/81Y22Jt6dCL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81Y22Jt6dCL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.7
   },
   {
@@ -140,7 +184,11 @@
     "category": "Cleaning",
     "dimensions": "40 x 15 x 10 inches",
     "material": "Plastic, Metal",
-    "image": "https://m.media-amazon.com/images/I/71V0kbGwsTL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71V0kbGwsTL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.3
   },
   {
@@ -152,7 +200,11 @@
     "category": "Storage",
     "dimensions": "18 x 12 inches",
     "material": "Wicker",
-    "image": "https://m.media-amazon.com/images/I/61oD6Jvp8TL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/61oD6Jvp8TL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.6
   },
   {
@@ -164,7 +216,11 @@
     "category": "Decor",
     "dimensions": "16 x 16 inches",
     "material": "Velvet",
-    "image": "https://m.media-amazon.com/images/I/51Ed9xcWrAL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/51Ed9xcWrAL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.8
   },
   {
@@ -176,7 +232,11 @@
     "category": "Cleaning",
     "dimensions": "6 x 3 inches",
     "material": "Glass",
-    "image": "https://m.media-amazon.com/images/I/71lAb+SHEmL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71lAb+SHEmL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.2
   },
   {
@@ -188,7 +248,11 @@
     "category": "Decor",
     "dimensions": "40 x 20 x 18 inches",
     "material": "Wood",
-    "image": "https://m.media-amazon.com/images/I/71B9qJ6WViL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71B9qJ6WViL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.4
   },
   {
@@ -200,7 +264,11 @@
     "category": "Cleaning",
     "dimensions": "12 x 12 inches",
     "material": "Microfiber",
-    "image": "https://m.media-amazon.com/images/I/71JnB3Ni6cL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/71JnB3Ni6cL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.5
   },
   {
@@ -212,7 +280,11 @@
     "category": "Storage",
     "dimensions": "48 x 12 inches",
     "material": "Canvas",
-    "image": "https://m.media-amazon.com/images/I/81lXEx5Z9UL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81lXEx5Z9UL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.3
   },
   {
@@ -224,7 +296,11 @@
     "category": "Bedding",
     "dimensions": "Queen Size",
     "material": "Cotton",
-    "image": "https://m.media-amazon.com/images/I/81Ehj3jarwL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81Ehj3jarwL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.6
   },
   {
@@ -236,7 +312,11 @@
     "category": "Decor",
     "dimensions": "24-inch diameter",
     "material": "Metal, Glass",
-    "image": "https://m.media-amazon.com/images/I/81Y22Jt6dCL._AC_UL480_FMwebp_QL65_.jpg",
+    "image": [
+      "https://m.media-amazon.com/images/I/81Y22Jt6dCL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/61Yz671PUuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71hrJcCLbKL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
     "rating": 4.7
   }
 ]

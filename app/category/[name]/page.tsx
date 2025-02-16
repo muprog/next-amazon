@@ -49,11 +49,15 @@ export default function DynamicPage() {
   }
   const fashionData = async (name: string) => {
     const result = await getFashionData()
-    setSearch(
-      result.filter((product: object | any) => {
-        return product.category === name
-      })
-    )
+    if (name === 'Fashions') {
+      setSearch(result)
+    } else {
+      setSearch(
+        result.filter((product: object | any) => {
+          return product.category === name
+        })
+      )
+    }
   }
   const kitchenData = async (name: string) => {
     const result = await getKitchenData()
@@ -92,7 +96,8 @@ export default function DynamicPage() {
       name === 'Jeans' ||
       name === 'Tops' ||
       name === 'Dresses' ||
-      name === 'Shoes'
+      name === 'Shoes' ||
+      name === 'Fashions'
     )
       fashionData(formattedName)
     if (name === 'kitchen') kitchenData(formattedName)
@@ -105,16 +110,26 @@ export default function DynamicPage() {
       ? name.replace(/%20/gi, ' ').replace(/%26/g, ' & ')
       : ''
 
+  const [indexOfRating, setIndexOfRating] = useState(-1)
   return (
-    <div className='bg-white pl-2'>
+    <div className='bg-white px-2'>
+      {search.length > 0 && (
+        <div className='text-slate-900 bg-white'>
+          1-{search.length} results available
+        </div>
+      )}
       {search.length > 0 ? (
-        <div>
-          <h3>Results</h3>
-          <div className='flex flex-col gap-6'>
+        <div className='shadow-inner shadow-gray-300 pt-5 pl-1'>
+          <h3 className='text-[24px] font-bold'>Results</h3>
+          <div className='flex flex-col gap-4'>
             {search.map((product: object | any, index) => {
               return (
                 <div key={index}>
-                  <ProductDetail product={product} />
+                  <ProductDetail
+                    indexOfRating={indexOfRating}
+                    setIndexOfRating={setIndexOfRating}
+                    product={product}
+                  />
                 </div>
               )
             })}

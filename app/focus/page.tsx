@@ -11,6 +11,8 @@ export default function page() {
       inputRef.current?.focus()
     }
   }, [isOpen])
+  const [loading, setLoading] = useState(false)
+  function Loading() {}
 
   return (
     <div>
@@ -24,6 +26,25 @@ export default function page() {
       <Combobox>
         <ComboboxInput ref={inputRef} className='border' />
       </Combobox>
+      <div>
+        <button
+          className='text-white bg-amazon-orange rounded-full px-2 py-1'
+          onClick={() => {
+            setLoading(true)
+            setTimeout(() => {
+              setLoading(false)
+            }, 1000)
+          }}
+        >
+          Loading
+        </button>
+      </div>
+
+      <div
+        className={`border-4 border-t-slate-300 border-gray-500 w-5 h-5 rounded-full animate-spin ${
+          loading ? 'block' : 'hidden'
+        }`}
+      ></div>
     </div>
   )
 }

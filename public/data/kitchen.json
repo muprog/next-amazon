@@ -11,8 +11,19 @@
     "material": "Aluminum",
     "color": "Black",
     "size": "12 inches",
-    "image": "https://m.media-amazon.com/images/I/71FA5LfgPuL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.5
+    "image": [
+      "https://m.media-amazon.com/images/I/71FA5LfgPuL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.5,
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Blue VO!CE technology",
+      "Detachable microphone",
+      "50mm drivers"
+    ]
   },
   {
     "id": 2,
@@ -25,8 +36,19 @@
     "brand": "Cuisinart",
     "material": "Stainless Steel",
     "color": "Silver",
-    "image": "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
-    "rating": 4.7
+    "image": [
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/61RbxYvJh4L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.7,
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "THX 7.1 surround sound",
+      "50mm TriForce Titanium drivers",
+      "Breathable memory foam"
+    ]
   },
   {
     "id": 3,
@@ -40,8 +62,19 @@
     "material": "Stainless Steel",
     "color": "White",
     "capacity": "1.7 liters",
-    "image": "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.2
+    "image": [
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/61RbxYvJh4L._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.2,
+    "warranty": "1 year",
+    "features": [
+      "Wireless",
+      "Active noise cancellation",
+      "High-fidelity audio",
+      "Dual battery system"
+    ]
   },
   {
     "id": 4,
@@ -54,8 +87,20 @@
     "brand": "Pyrex",
     "material": "Glass",
     "color": "Transparent",
-    "image": "https://m.media-amazon.com/images/I/61RbxYvJh4L._AC_UL480_FMwebp_QL65_.jpg",
-    "rating": 4.6
+    "image": [
+      "https://m.media-amazon.com/images/I/61RbxYvJh4L._AC_UL480_FMwebp_QL65_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.6,
+
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Broadcast-quality microphone",
+      "Hi-res audio",
+      "RGB lighting"
+    ]
   },
   {
     "id": 5,
@@ -69,8 +114,20 @@
     "material": "Bamboo",
     "color": "Natural Wood",
     "size": "16 x 12 inches",
-    "image": "https://m.media-amazon.com/images/I/81alKQU2nTL._AC_SR278,278_QL70_.jpg",
-    "rating": 4.4
+    "image": [
+      "https://m.media-amazon.com/images/I/81alKQU2nTL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.4,
+
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "7.1 surround sound",
+      "53mm drivers",
+      "Memory foam ear cushions"
+    ]
   },
   {
     "id": 6,
@@ -84,8 +141,20 @@
     "material": "Ceramic",
     "color": "Multi-color",
     "capacity": "12 oz",
-    "image": "https://m.media-amazon.com/images/I/717ccD-Gm4L._AC_SY450_.jpg",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/717ccD-Gm4L._AC_SY450_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+
+    "warranty": "2 years",
+    "features": [
+      "Opto-mechanical switches",
+      "Customizable RGB lighting",
+      "Magnetic wrist rest",
+      "Dedicated media controls"
+    ]
   },
   {
     "id": 7,
@@ -99,8 +168,20 @@
     "material": "Silicone",
     "color": "Red and Beige",
     "size": "16 x 11 inches",
-    "image": "https://m.media-amazon.com/images/I/71ZXjnmk62L._AC_SY450_.jpg",
-    "rating": 4.8
+    "image": [
+      "https://m.media-amazon.com/images/I/71ZXjnmk62L._AC_SY450_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.8,
+
+    "warranty": "2 years",
+    "features": [
+      "Wireless",
+      "Low-profile mechanical switches",
+      "RGB lighting",
+      "Durable aluminum alloy"
+    ]
   },
   {
     "id": 8,
@@ -113,8 +194,20 @@
     "brand": "KitchenAid",
     "material": "Plastic and Glass",
     "color": "Black",
-    "image": "https://m.media-amazon.com/images/I/717ccD-Gm4L._AC_SY450_.jpg",
-    "rating": 4.1
+    "image": [
+      "https://m.media-amazon.com/images/I/717ccD-Gm4L._AC_SY450_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.1,
+
+    "warranty": "1 year",
+    "features": [
+      "Adjustable mechanical switches",
+      "OLED smart display",
+      "RGB lighting",
+      "Aircraft-grade aluminum alloy"
+    ]
   },
   {
     "id": 9,
@@ -128,8 +221,20 @@
     "material": "Plastic and Stainless Steel",
     "color": "White",
     "power": "500 watts",
-    "image": "https://m.media-amazon.com/images/I/71PqEZEK3kL._AC_SY450_.jpg",
-    "rating": 4.5
+    "image": [
+      "https://m.media-amazon.com/images/I/71PqEZEK3kL._AC_SY450_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.5,
+
+    "warranty": "2 years",
+    "features": [
+      "Mechanical switches",
+      "6 dedicated macro keys",
+      "RGB lighting",
+      "Aircraft-grade aluminum frame"
+    ]
   },
   {
     "id": 10,
@@ -143,7 +248,19 @@
     "material": "Plastic and Stainless Steel",
     "color": "Silver and Black",
     "capacity": "11 lbs",
-    "image": "https://m.media-amazon.com/images/I/71jH3bBmG-L._AC_SY450_.jpg",
-    "rating": 4.3
+    "image": [
+      "https://m.media-amazon.com/images/I/71jH3bBmG-L._AC_SY450_.jpg",
+      "https://m.media-amazon.com/images/I/71Orh9qfZWL._AC_SR278,278_QL70_.jpg",
+      "https://m.media-amazon.com/images/I/71zIe8FUnPL._AC_UL480_FMwebp_QL65_.jpg"
+    ],
+    "rating": 4.3,
+
+    "warranty": "1 year",
+    "features": [
+      "Compact design",
+      "PBT keycaps",
+      "RGB lighting",
+      "Cherry MX switches"
+    ]
   }
 ]

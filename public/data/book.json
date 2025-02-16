@@ -12,7 +12,11 @@
     "publishedDate": "1925-04-10",
     "pages": 180,
     "isbn": "9780743273565",
-    "image": "https://unsplash.com/photos/q3Pz2FYJbjQ",
+    "image": [
+      "https://m.media-amazon.com/images/I/61azTLgsSwL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.7
   },
   {
@@ -28,7 +32,11 @@
     "publishedDate": "1960-07-11",
     "pages": 281,
     "isbn": "9780060935467",
-    "image": "https://unsplash.com/photos/BtL8ZN0LpaE",
+    "image": [
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61azTLgsSwL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.8
   },
   {
@@ -44,7 +52,11 @@
     "publishedDate": "1949-06-08",
     "pages": 328,
     "isbn": "9780451524935",
-    "image": "https://unsplash.com/photos/eeqbbemH9-c",
+    "image": [
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.6
   },
   {
@@ -60,7 +72,11 @@
     "publishedDate": "1951-07-16",
     "pages": 214,
     "isbn": "9780316769488",
-    "image": "https://unsplash.com/photos/2k9zvJnyfEs",
+    "image": [
+      "https://m.media-amazon.com/images/I/711CKvXgXIL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.2
   },
   {
@@ -76,7 +92,11 @@
     "publishedDate": "1813-01-28",
     "pages": 279,
     "isbn": "9780141439518",
-    "image": "https://unsplash.com/photos/hP7ib5anlA8",
+    "image": [
+      "https://m.media-amazon.com/images/I/61aSVNDdLpL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.9
   },
   {
@@ -92,7 +112,11 @@
     "publishedDate": "1937-09-21",
     "pages": 310,
     "isbn": "9780547928227",
-    "image": "https://unsplash.com/photos/CbNAuxSZTFo",
+    "image": [
+      "https://m.media-amazon.com/images/I/71+1CgqvXSL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.8
   },
   {
@@ -108,7 +132,11 @@
     "publishedDate": "1988-01-01",
     "pages": 208,
     "isbn": "9780061122415",
-    "image": "https://unsplash.com/photos/N1ogFMg-FaM",
+    "image": [
+      "https://m.media-amazon.com/images/I/61Ru8U7QaDL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.5
   },
   {
@@ -124,7 +152,11 @@
     "publishedDate": "1997-06-26",
     "pages": 309,
     "isbn": "9780747532699",
-    "image": "https://unsplash.com/photos/1ucvUp7QF-k",
+    "image": [
+      "https://m.media-amazon.com/images/I/61yGUfx1BXL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.9
   },
   {
@@ -140,7 +172,11 @@
     "publishedDate": "2005-03-14",
     "pages": 552,
     "isbn": "9780375842207",
-    "image": "https://unsplash.com/photos/rlwE8f8anOc",
+    "image": [
+      "https://m.media-amazon.com/images/I/71F5mMqYqbL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.7
   },
   {
@@ -156,7 +192,211 @@
     "publishedDate": "2014-02-10",
     "pages": 443,
     "isbn": "9780062316115",
-    "image": "https://unsplash.com/photos/M8satke7N9E",
+    "image": [
+      "https://m.media-amazon.com/images/I/71BJxI9-BRL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
     "rating": 4.6
+  },
+  {
+    "id": 11,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "description": "A psychological thriller about a woman who stops speaking after a traumatic incident.",
+    "price": 15.99,
+    "stock": 35,
+    "category": "Thriller",
+    "language": "English",
+    "publisher": "Celadon Books",
+    "publishedDate": "2019-02-05",
+    "pages": 336,
+    "isbn": "9781250301697",
+    "image": [
+      "https://m.media-amazon.com/images/I/81a4kCNuH+L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "description": "A coming-of-age story set in the marshlands of North Carolina.",
+    "price": 14.99,
+    "stock": 40,
+    "category": "Fiction",
+    "language": "English",
+    "publisher": "G.P. Putnam's Sons",
+    "publishedDate": "2018-08-14",
+    "pages": 384,
+    "isbn": "9780735219090",
+    "image": [
+      "https://m.media-amazon.com/images/I/71kxa1-0zfL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 13,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "A novel about a woman who gets the chance to live multiple lives.",
+    "price": 13.99,
+    "stock": 30,
+    "category": "Fantasy",
+    "language": "English",
+    "publisher": "Canongate Books",
+    "publishedDate": "2020-08-13",
+    "pages": 288,
+    "isbn": "9780525559474",
+    "image": [
+      "https://m.media-amazon.com/images/I/61FJpUln93L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 14,
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "description": "A historical fiction novel set during World War II.",
+    "price": 16.99,
+    "stock": 25,
+    "category": "Historical Fiction",
+    "language": "English",
+    "publisher": "St. Martin's Press",
+    "publishedDate": "2015-02-03",
+    "pages": 448,
+    "isbn": "9780312577223",
+    "image": [
+      "https://m.media-amazon.com/images/I/91asIC1fRwL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": 15,
+    "title": "It Ends With Us",
+    "author": "Colleen Hoover",
+    "description": "A novel about love, heartbreak, and making difficult choices.",
+    "price": 12.99,
+    "stock": 50,
+    "category": "Romance",
+    "language": "English",
+    "publisher": "Atria Books",
+    "publishedDate": "2016-08-02",
+    "pages": 384,
+    "isbn": "9781501110368",
+    "image": [
+      "https://m.media-amazon.com/images/I/91HHqVTAJQL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "description": "A tale of old Hollywood and a woman's rise to fame.",
+    "price": 14.99,
+    "stock": 30,
+    "category": "Historical Fiction",
+    "language": "English",
+    "publisher": "Atria Books",
+    "publishedDate": "2017-06-13",
+    "pages": 400,
+    "isbn": "9781501139239",
+    "image": [
+      "https://m.media-amazon.com/images/I/71Q1Iu4suSL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 17,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "description": "A science fiction epic set on the desert planet Arrakis.",
+    "price": 18.99,
+    "stock": 20,
+    "category": "Science Fiction",
+    "language": "English",
+    "publisher": "Chilton Books",
+    "publishedDate": "1965-08-01",
+    "pages": 688,
+    "isbn": "9780441013593",
+    "image": [
+      "https://m.media-amazon.com/images/I/81gepf1eMqL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": 18,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "description": "A self-help book about prioritizing what truly matters.",
+    "price": 17.99,
+    "stock": 40,
+    "category": "Self-Help",
+    "language": "English",
+    "publisher": "HarperOne",
+    "publishedDate": "2016-09-13",
+    "pages": 224,
+    "isbn": "9780062457719",
+    "image": [
+      "https://m.media-amazon.com/images/I/81-+u2L07ML._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A book on how small habits lead to big changes.",
+    "price": 19.99,
+    "stock": 50,
+    "category": "Self-Help",
+    "language": "English",
+    "publisher": "Avery",
+    "publishedDate": "2018-10-16",
+    "pages": 320,
+    "isbn": "9780735211292",
+    "image": [
+      "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": 20,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "description": "A guide to spiritual enlightenment and mindfulness.",
+    "price": 14.99,
+    "stock": 45,
+    "category": "Spirituality",
+    "language": "English",
+    "publisher": "New World Library",
+    "publishedDate": "1997-10-06",
+    "pages": 236,
+    "isbn": "9781577314806",
+    "image": [
+      "https://m.media-amazon.com/images/I/81OthjkJBuL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sRSGAX-nL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61sjU1X-KqL._AC_SY200_.jpg"
+    ],
+    "rating": 4.8
   }
 ]
