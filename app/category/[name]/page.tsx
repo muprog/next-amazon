@@ -11,11 +11,11 @@ import {
   getKitchenData,
   getBookData,
 } from '@/utils'
-import { div, object } from 'framer-motion/client'
+// import { div, object } from 'framer-motion/client'
 
 export default function DynamicPage() {
-  const params = useParams() // Fetch dynamic route params
-  const { name } = params // Access the 'name' parameter from the URL
+  const params = useParams()
+  const { name } = params
 
   const [search, setSearch] = useState([])
   const gameData = async (name: string) => {
@@ -73,7 +73,6 @@ export default function DynamicPage() {
     )
   }
 
-  // console.log(search)
   useEffect(() => {
     if (name === 'Game') gameData(formattedName)
     if (
@@ -101,10 +100,8 @@ export default function DynamicPage() {
     )
       fashionData(formattedName)
     if (name === 'kitchen') kitchenData(formattedName)
-    // bookData()
   }, [])
 
-  // Check if 'name' is a string before applying replace
   const formattedName =
     typeof name === 'string'
       ? name.replace(/%20/gi, ' ').replace(/%26/g, ' & ')

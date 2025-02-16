@@ -192,7 +192,7 @@ import SingleProductDetail from '@/components/Products/SingleProductDetail'
 import { cartDataProps, ProductDetailProps } from '@/Types'
 import RelatedProducts from '@/components/Products/RelatedProducts'
 
-export default function page() {
+export default function Page() {
   const param = useParams()
   const { id } = param
   const seasrchParams = useSearchParams()

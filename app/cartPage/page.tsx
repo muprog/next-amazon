@@ -7,26 +7,24 @@ import CartDataStructure from '@/components/Cart/CartDataStructure'
 import Button from '@/components/Button/Button'
 import Link from 'next/link'
 import SavedForLaterStructure from '@/components/Cart/SavedForLaterStructure'
-export default function page() {
-  const [isClient, setIsClient] = useState(false)
+export default function Page() {
+  // const [isClient, setIsClient] = useState(false)
   const context = useContext(MyContext)
   if (!context) return null
   const [cartData, setCartData] = useState<cartDataProps[]>([])
   const [savedForLater, setSavedForLater] = useState<cartDataProps[]>([])
   useEffect(() => {
-    setCartData(context.cartData) // ✅ Only runs when the component mounts or when `context.cartData` changes
+    setCartData(context.cartData)
   }, [context.cartData])
   useEffect(() => {
     setSavedForLater(context.savedForLater)
   }, [context.savedForLater])
-
-  // console.log(cartData)
   const [TotalPrice, setTotalPrice] = useState<number>(0)
   useEffect(() => {
-    setTotalPrice((prev) => {
+    setTotalPrice(() => {
       let total = 0
       if (cartData.length > 0) {
-        cartData.map((data, index) => {
+        cartData.map((data) => {
           total += data.product.price
             ? data.product.price * data.quantity
             : total
@@ -36,20 +34,6 @@ export default function page() {
       return total
     })
   }, [cartData])
-
-  // const [savedForLater, setSavedForLater] = useState<cartDataProps[]>([])
-
-  // useEffect(() => {
-  //   const savedData = localStorage.getItem('savedForLater')
-  //   if (savedData) {
-  //     setSavedForLater(JSON.parse(savedData))
-  //   }
-  // }, [])
-
-  // // Save savedForLater to local storage whenever it changes
-  // useEffect(() => {
-  //   localStorage.setItem('savedForLater', JSON.stringify(savedForLater))
-  // }, [savedForLater])
 
   return (
     <div className='p-4 bg-slate-100 h-full flex flex-col gap-4'>
@@ -183,12 +167,7 @@ export default function page() {
             </div>
             <div className='flex-shrink-0 py-10 px-4 grid grid-cols-1 justify-center  lg:grid-cols-2 xl:grid-cols-3 gap-2'>
               {savedForLater?.map((save, index) => (
-                <SavedForLaterStructure
-                  save={save}
-                  // savedForLater={savedForLater}
-                  // setSavedForLater={setSavedForLater}
-                  key={index}
-                />
+                <SavedForLaterStructure save={save} key={index} />
               ))}
             </div>
           </div>

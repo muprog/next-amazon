@@ -38,7 +38,6 @@ export default function Home() {
 
   return (
     <div className='flex flex-col items-center min-h-screen p-6 bg-gray-100'>
-      {/* Listbox */}
       <Listbox value={selectedPerson} onChange={handleListboxSelect}>
         <div className='relative mb-4'>
           <Listbox.Button className='w-64 px-4 py-2 text-left border rounded bg-white shadow'>
@@ -60,16 +59,15 @@ export default function Home() {
         </div>
       </Listbox>
 
-      {/* Combobox */}
       <Combobox value={null} onChange={() => {}}>
         <div className='w-64'>
           <Combobox.Input
-            ref={comboboxInputRef} // Attach ref to the input
+            ref={comboboxInputRef}
             placeholder='Type here...'
             className='w-full px-4 py-2 border rounded shadow'
             value={query}
-            onChange={(e) => setQuery(e.target.value)} // Allow typing freely
-            onClick={() => comboboxInputRef.current?.focus()} // Ensures the input gets focus
+            onChange={(e) => setQuery(e.target.value)}
+            onClick={() => comboboxInputRef.current?.focus()}
           />
         </div>
       </Combobox>

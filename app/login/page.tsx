@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
 import Link from 'next/link'
-export default function page() {
+export default function Page() {
   const inputRef = useRef<HTMLInputElement>(null)
   useEffect(() => {
     inputRef?.current?.focus()

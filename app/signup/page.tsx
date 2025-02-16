@@ -5,7 +5,7 @@ import Button from '@/components/Button/Button'
 import Link from 'next/link'
 import toast, { Toaster } from 'react-hot-toast'
 import { useRouter } from 'next/navigation'
-export default function page() {
+export default function Page() {
   const inputRef = useRef<HTMLInputElement>(null)
   const inputRef1 = useRef<HTMLInputElement>(null)
   const inputRef2 = useRef<HTMLInputElement>(null)
