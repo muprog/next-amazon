@@ -71,7 +71,7 @@ export default function Page() {
 
   return (
     <div>
-      <div className='w-full h-[100vh] flex flex-col justify-start items-center text-[12px] pt-10 gap-4'>
+      <div className='mobile-screen-login w-full h-[100vh] flex flex-col justify-start items-center text-[12px] pt-10 gap-4'>
         <div className='relative w-[105px] h-[51px] mb-4 flex-shrink-0 hover:border-[3px] hover:border-black p-2 rounded-[5px]'>
           <Link href={'/'} className='w-full h-full '>
             <Image
@@ -225,8 +225,9 @@ export default function Page() {
             </div>
           </form>
         </div>
-        <div></div>
+      </div>
 
+      <div>
         <div className='w-full px-10'>
           <hr className='border border-gray-300 w-full' />
         </div>
@@ -246,6 +247,7 @@ export default function Page() {
           <div>&copy; 1996-2025, Amazon.com, inc. or its affiliates</div>
         </div>
       </div>
+
       <Toaster />
     </div>
   )

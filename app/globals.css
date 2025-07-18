@@ -34,8 +34,14 @@
   }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 432px) {
   .mobile-screen {
     @apply h-[127vh];
+  }
+}
+
+@media (max-width: 432px) {
+  .mobile-screen-login {
+    @apply h-[165vh];
   }
 }
