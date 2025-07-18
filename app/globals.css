@@ -24,14 +24,6 @@
 .percentageTd {
   @apply flex-1  text-center;
 }
-/* .loader {
-  width: 16px;
-  height: 16px;
-  border: 2px solid transparent;
-  border-top: 2px solid #f97316; /* Orange color for Amazon theme *
-  border-radius: 50%;
-  animation: spin 0.6s linear infinite;
-} */
 
 @keyframes spin {
   0% {
@@ -39,5 +31,11 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 412px) {
+  .mobile-screen {
+    @apply h-[127vh];
   }
 }

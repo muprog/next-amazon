@@ -228,7 +228,7 @@ export default function Page() {
   }
 
   return (
-    <div className='p-4 bg-slate-100 h-full flex flex-col gap-4'>
+    <div className='mobile-screen p-4 bg-slate-100 min-h-screen flex flex-col gap-4'>
       <div className='   md:flex gap-2 flex-shrink-0'>
         {cartData.length > 0 && (
           <div className='w-[300px] h-[150px] bg-white rounded-[3px] mb-2 flex justify-center items-center md:hidden'>
