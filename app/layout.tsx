@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { MyProvider } from '@/components/ContextApi/MyContext'
 import './globals.css'
 import Header from '@/components/HeaderAndFooter/Header'
@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   description: 'Developed by Adoniyas Seid',
 }
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: 'cover',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <MyProvider>
-        <body className='overflow-x-auto min-w-[720px] flex flex-col h-full bg-slate-100 bg-opacity-30'>
+        <body className='overflow-x-hidden'>
           <div>
             <Header />
           </div>

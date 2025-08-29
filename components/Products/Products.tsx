@@ -78,7 +78,7 @@ const fourProducts = [
 ]
 export default function Products() {
   return (
-    <div className=' w-full flex justify-center items-center p-5 relative top-[150px]'>
+    <div className=' w-full flex justify-center items-center p-5 mt-6 sm:mt-10 md:mt-16'>
       {/* <FourProducts /> */}
       <div className='grid max-w-[1350px] w-full  lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-4'>
         {fourProducts.map((product) => (

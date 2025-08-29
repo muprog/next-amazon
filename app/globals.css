@@ -6,7 +6,7 @@
   @apply hover:border w-[50px] h-[30px];
 }
 .header-font {
-  @apply text-[14px] text-nowrap hover:border h-full cursor-pointer flex items-center;
+  @apply text-[14px] text-nowrap hover:border h-full cursor-pointer;
 }
 .header-bold-font {
   @apply font-bold;
@@ -36,12 +36,12 @@
 
 @media (max-width: 432px) {
   .mobile-screen {
-    @apply h-[127vh];
+    @apply h-auto;
   }
 }
 
 @media (max-width: 432px) {
   .mobile-screen-login {
-    @apply h-[165vh];
+    @apply h-auto;
   }
 }

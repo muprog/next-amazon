@@ -53,7 +53,7 @@ export default function SingleProductDetail({
   }
 
   return (
-    <div className='flex gap-2 p-2'>
+    <div className='flex flex-col lg:flex-row gap-2 p-2'>
       {/* Product Image (Always Same Size) */}
       <div className='sticky top-2 h-full w-[50px] flex flex-col gap-1'>
         {product?.image &&
@@ -79,7 +79,7 @@ export default function SingleProductDetail({
       </div>
       <div
         ref={imageRef}
-        className='sticky top-2 w-[150px] h-[200px] sm:w-[200px] sm:h-[250px] overflow-hidden'
+        className='sticky top-2 w-[150px] h-[200px] sm:w-[200px] sm:h-[250px] overflow-hidden self-center'
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
@@ -108,7 +108,7 @@ export default function SingleProductDetail({
 
       {/* Fixed Zoomed Image Position (Covers the Same Area Always) */}
       <div
-        className='relative overflow-hidden flex-1 h-screen'
+        className='relative overflow-hidden flex-1 h-[60vh] md:h-screen'
         // style={{
         //   width: `${zoomContainerWidth}px`,
         //   height: `${zoomContainerHeight}px`,
@@ -173,7 +173,7 @@ export default function SingleProductDetail({
           </div>
         )}
       </div>
-      <div className='w-[210px] flex flex-col gap-2 text-[14px] '>
+      <div className='w-full lg:w-[210px] flex flex-col gap-2 text-[14px] '>
         <div className='border border-black rounded-lg p-4 '>
           No featured offers available
           <div className='text-amazon-blue'>Learn more</div>

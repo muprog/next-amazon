@@ -11,28 +11,16 @@ import { cartDataProps } from '@/Types'
 
 export default function Header() {
   const [mounted, setMounted] = useState(false)
-  const [subTotal, setSubTotal] = useState<number>(0)
+  const [, setSubTotal] = useState<number>(0)
   const pathname = usePathname()
   const hideHeader = ['/login', '/signup']
-  const cartPage = ['/cartPage']
   const [cartLength, setCartLength] = useState(0)
   const context = useContext(MyContext)
-  const [openCart, setOpenCart] = useState(false)
-  // if (!context) {
-  //   return <div className='text-center text-[50px]'>Loading</div>
-  // }
+  const [, setOpenCart] = useState(false)
+
   const cartData = context?.cartData as cartDataProps[]
 
   const shouldHideLayout = hideHeader.includes(pathname)
-  const hideCartPage = cartPage.includes(pathname)
-
-  // openCart state controls message visibility
-
-  useEffect(() => {
-    if (!hideCartPage) {
-      setOpenCart(true)
-    }
-  }, [cartData])
 
   useEffect(() => {
     setMounted(true)
@@ -54,8 +42,8 @@ export default function Header() {
   return (
     <div>
       {!shouldHideLayout && (
-        <div className='w-full min-w-[720px] h-[60px] bg-black flex items-center text-white gap-1  justify-between py-2 px-2'>
-          <div className='h-full w-[80px] hover:border'>
+        <div className='w-full h-[60px] bg-black text-white flex items-center justify-between gap-2 md:gap-3 py-2 px-2 sticky top-0 isolation-isolate z-40 shadow-md'>
+          <div className='h-full w-[80px] hover:border flex-shrink-0'>
             <div className='relative h-full w-[80px]'>
               <Link href={'/'} className=''>
                 <Image
@@ -70,7 +58,7 @@ export default function Header() {
               </Link>
             </div>
           </div>
-          <div className=' text-[10px] w-[70px] h-full flex-shrink-0 pl-1 hover:border'>
+          <div className=' text-[10px] w-[70px] h-full flex-shrink-0 pl-1 hover:border hidden sm:flex'>
             <button className='flex items-center w-full h-full '>
               <div className='relative w-[20px] h-[20px] flex-shrink-0'>
                 <Image
@@ -92,7 +80,7 @@ export default function Header() {
           <div className='header-font hover:border-none flex flex-1 items-center justify-center'>
             <SearchBar />
           </div>
-          <div className='header-font'>
+          <div className='header-font hidden md:flex'>
             <div className='relative w-4 h-4'>
               <Image
                 src='/image/american-flag.jpg'
@@ -104,10 +92,10 @@ export default function Header() {
 
             <div>lang</div>
           </div>
-          <div className='header-font'>
+          <div className='header-font hidden md:flex'>
             <Link href={'/login'}>sign in</Link>
           </div>
-          <div className='header-font'>
+          <div className='header-font hidden md:flex'>
             <Link href={'/login'}>
               <button>
                 Returns
@@ -115,58 +103,15 @@ export default function Header() {
               </button>
             </Link>
           </div>
+
           <Link href={'/cartPage'} onClick={() => setOpenCart(false)}>
             <div className='flex flex-col items-center justify-center relative header-font pt-2'>
               <div className='pt-1 absolute top-[-6px] left-3 text-[14px] text-orange-400 font-semibold'>
                 {cartLength}
               </div>
-              <div onClick={() => setOpenCart(true)}>
+              <div>
                 <ShoppingCartIcon className='h-7 w-7' />
               </div>
-              {openCart && (
-                <div
-                  className='border mt-2 text-center text-black h-[100vh] w-[110px] flex items-start absolute top-[-20px] left-9 text-wrap   before:absolute before:-left-[15px] before:top-[30px] before:-translate-y-1/2 before:border-8
-                    before:border-transparent before:border-r-white'
-                >
-                  {cartData.length > 0 ? (
-                    <div className='flex-shrink-0 flex flex-col gap-1  items-center'>
-                      <h1 className='text-[14px]'>
-                        Subtotal:
-                        <div className='font-bold text-red-700 text-[17px] text-wrap  max-w-[100px] '>
-                          {new Intl.NumberFormat('en-US', {
-                            style: 'currency',
-                            currency: 'USD', // Specify the currency code, e.g., 'USD', 'EUR', etc.
-                          }).format(subTotal)}
-                        </div>
-                      </h1>
-                      <hr className='w-[70%]' />
-                      <div className='flex flex-col gap-2'>
-                        {cartData.map((cart, index) => (
-                          <div
-                            key={index}
-                            className='relative w-full px-4 flex-shrink-0'
-                          >
-                            <Image
-                              src={`${cart.product.image?.[0]}`}
-                              alt={`${cart.product.name}`}
-                              width={70}
-                              height={100}
-                              className='w-[70px] h-[100px]'
-                            />
-                            {cart.quantity > 1 && (
-                              <div className='absolute right-0 bottom-0 border-2 rounded-full w-6 font-fold'>
-                                {cart.quantity}
-                              </div>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ) : (
-                    <div>Your Cart is empty</div>
-                  )}
-                </div>
-              )}
             </div>
           </Link>
         </div>

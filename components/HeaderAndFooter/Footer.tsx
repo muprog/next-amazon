@@ -115,9 +115,9 @@ export default function Footer() {
         <div className='w-full bg-black text-gray-300 p-5 text-[11px] relative flex-shrink-0 top-[150px]'>
           <div className='w-full flex justify-center'>
             {footerData?.length > 0 ? (
-              <div className='w-[80%] grid grid-cols-5 gap-2'>
+              <div className='w-[90%] md:w-[80%] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>
                 {footerData.map((footer: FooterProps) => (
-                  <div key={footer?.id} className='w-[100px] text-wrap'>
+                  <div key={footer?.id} className='min-w-0 text-wrap'>
                     <Link href={`${footer?.title}`} className='hover:underline'>
                       <h1 className='font-bold'>{footer?.title}</h1>
                       <div className='text-gray-500'>{footer?.description}</div>
@@ -130,7 +130,7 @@ export default function Footer() {
             )}
           </div>
           <div className='w-full flex flex-col items-center pt-5'>
-            <div className='w-full flex justify-center gap-2 mb-2'>
+            <div className='w-full flex flex-wrap justify-center gap-2 mb-2'>
               <Link href='/' className='hover:underline'>
                 Conditions of Use
               </Link>

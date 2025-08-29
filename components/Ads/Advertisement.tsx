@@ -117,9 +117,9 @@ export default function Advertisement() {
   })
 
   return (
-    <div className='absolute w-full min-h-[400px] h-screen overflow-hidden'>
+    <div className='relative w-full h-[220px] sm:h-[320px] md:h-[420px] overflow-hidden'>
       {/* Left and Right Buttons */}
-      <div className='absolute z-10 w-full  flex justify-between items-center px-4 top-[70px]'>
+      <div className='absolute inset-0 z-10 w-full flex justify-between items-center px-4'>
         <button
           className='w-10 h-10 flex items-center justify-center bg-gray-300 rounded-full shadow hover:bg-gray-400 transition'
           onClick={goToPrevious}
@@ -166,8 +166,8 @@ export default function Advertisement() {
               className='object-cover'
             />
 
-            {/* Gradient Overlay */}
-            <div className='absolute inset-0 bg-gradient-to-t from-white  opacity-75'></div>
+            {/* Gradient Overlay (hidden on very small screens) */}
+            <div className='absolute inset-0 bg-gradient-to-t from-white opacity-75 max-[432px]:hidden'></div>
           </div>
         ))}
       </div>
