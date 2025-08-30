@@ -222,7 +222,6 @@ export default function Page() {
     setTotalPrice(total)
   }, [cartData, context])
 
-  // Return fallback while loading context
   if (!context) {
     return <div>Loading...</div>
   }

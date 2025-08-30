@@ -142,11 +142,11 @@ export default function SearchBar() {
   return (
     <div className='w-full'>
       <div
-        className={`text-black flex-1 justify-center flex items-center h-[40px] rounded-[5px] ${
+        className={`text-black flex-1 justify-center flex items-center h-[40px] rounded-[5px] box-border relative ${
           !isOpen ? '' : 'border-2 border-amazon-orange'
         } w-full`}
       >
-        <div className='h-full'>
+        <div className='h-full w-auto  flex-shrink-0'>
           <ListBox
             isOptionSelected={isOptionSelected}
             setIsOptionSelected={setIsOptionSelected}
@@ -156,47 +156,52 @@ export default function SearchBar() {
           />
         </div>
 
-        <Combobox onChange={handleCategoryChange} onClose={() => setQuery('')}>
-          <ComboboxInput
-            displayValue={(person: filteredPeopleProps) => person?.name}
-            onChange={(e) => setQuery(e.target.value)}
-            className={`focus:outline-none px-1 py-1 h-full flex-1 text-[16px]`}
-            placeholder='Search Amazon'
-            onFocus={() => setIsOpen(true)}
-            onBlur={() => setIsOpen(false)}
-            ref={inputRef}
-          />
-          <ComboboxOptions
-            anchor='bottom start'
-            className={
-              'border bg-white text-[16px] font-bold text-nowrap relative z-10'
-            }
+        <div className='flex-1 relative'>
+          <Combobox
+            onChange={handleCategoryChange}
+            onClose={() => setQuery('')}
           >
-            {filteredPeople1?.map((person) => (
-              <ComboboxOption
-                value={person}
-                key={person.id}
-                className='flex gap-1 cursor-pointer'
-              >
-                <Image
-                  src='/image/search.svg'
-                  alt='search'
-                  width={15}
-                  height={15}
-                />
-                {person?.name}
-              </ComboboxOption>
-            ))}
-          </ComboboxOptions>
-        </Combobox>
+            <ComboboxInput
+              displayValue={(person: filteredPeopleProps) => person?.name}
+              onChange={(e) => setQuery(e.target.value)}
+              className={`focus:outline-none border-0 px-1 py-1 h-[40px] w-full text-[16px] bg-white flex items-center`}
+              placeholder='Search Amazon'
+              onFocus={() => setIsOpen(true)}
+              onBlur={() => setIsOpen(false)}
+              ref={inputRef}
+            />
+            <ComboboxOptions
+              anchor='bottom start'
+              className={
+                'absolute left-0 right-0 top-full z-[10000] border bg-white text-[16px] font-bold text-nowrap max-h-[300px] overflow-auto w-full'
+              }
+            >
+              {filteredPeople1?.map((person) => (
+                <ComboboxOption
+                  value={person}
+                  key={person.id}
+                  className='flex gap-1 cursor-pointer'
+                >
+                  <Image
+                    src='/image/search.svg'
+                    alt='search'
+                    width={15}
+                    height={15}
+                  />
+                  {person?.name}
+                </ComboboxOption>
+              ))}
+            </ComboboxOptions>
+          </Combobox>
+        </div>
 
-        <div className='h-full'>
-          <button className='bg-amazon-yellow relative w-[40px] h-full rounded-r-[2px] flex items-center justify-center'>
+        <div className='h-full flex-shrink-0'>
+          <button className='bg-amazon-yellow relative w-[56px] sm:w-[64px] h-full rounded-r-[2px] flex items-center justify-center'>
             <Image
               src={'/image/search.svg'}
               alt='search'
-              width={25}
-              height={25}
+              width={28}
+              height={28}
               sizes='(max-width: 768px) 100vw, 
               (max-width: 1200px) 50vw, 
               33vw'

@@ -6,7 +6,7 @@
   @apply hover:border w-[50px] h-[30px];
 }
 .header-font {
-  @apply text-[14px] text-nowrap hover:border h-full cursor-pointer;
+  @apply text-[14px] text-nowrap h-full cursor-pointer border border-transparent hover:border;
 }
 .header-bold-font {
   @apply font-bold;
@@ -44,4 +44,60 @@
   .mobile-screen-login {
     @apply h-auto;
   }
+}
+
+/* Use CSS custom properties for maximum specificity */
+* {
+  scrollbar-width: var(--scrollbar-width, none) !important;
+}
+
+*::-webkit-scrollbar {
+  width: var(--scrollbar-width, 0px) !important;
+  height: var(--scrollbar-height, 0px) !important;
+}
+
+/* Target Headless UI specifically */
+[data-headlessui-state] * {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+[data-headlessui-state] *::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Additional aggressive scrollbar hiding */
+html,
+body,
+div,
+section,
+article,
+aside,
+nav,
+header,
+footer,
+main {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+div::-webkit-scrollbar,
+section::-webkit-scrollbar,
+article::-webkit-scrollbar,
+aside::-webkit-scrollbar,
+nav::-webkit-scrollbar,
+header::-webkit-scrollbar,
+footer::-webkit-scrollbar,
+main::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  display: none !important;
+  visibility: hidden !important;
 }

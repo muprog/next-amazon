@@ -36,9 +36,19 @@ module.exports = {
         '.scrollbar-hide': {
           '-ms-overflow-style': 'none' /* IE and Edge */,
           'scrollbar-width': 'none' /* Firefox */,
+          overflow: '-moz-scrollbars-none' /* Firefox */,
         },
         '.scrollbar-hide::-webkit-scrollbar': {
           display: 'none' /* Chrome, Safari, and WebKit browsers */,
+        },
+        '.scrollbar-hide::-webkit-scrollbar-track': {
+          display: 'none',
+        },
+        '.scrollbar-hide::-webkit-scrollbar-thumb': {
+          display: 'none',
+        },
+        '.scrollbar-hide::-webkit-scrollbar-corner': {
+          display: 'none',
         },
       })
     }),

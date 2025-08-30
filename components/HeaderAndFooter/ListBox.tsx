@@ -110,7 +110,7 @@ ListBOxProps) {
   }, [setSelected])
   return (
     <div
-      className='h-full text-[12px] font-serif hover:text-black text-gray-600'
+      className='h-full text-[12px] font-serif hover:text-black text-gray-600 relative'
       onFocus={() => setIsOpen(true)}
       onBlurCapture={() => setIsOpen(false)}
     >
@@ -118,7 +118,7 @@ ListBOxProps) {
         <ListboxButton
           className={`bg-gray-200 h-full rounded-l-[2px] flex justify-center items-center text-nowrap p-2 ${
             !isOpen ? '' : 'border-2 border-amazon-orange'
-          }`}
+          } border-0`}
           // onBlurCapture={() => setIsOpen(false)}
         >
           {selected?.category}
@@ -132,20 +132,37 @@ ListBOxProps) {
         </ListboxButton>
         <ListboxOptions
           anchor='bottom start'
-          className={`border bg-white h-[50vh] overflow-x-scroll p-1 font-amazon cursor-pointer z-20`}
+          className={`border bg-white h-[50vh] p-1 font-amazon cursor-pointer z-20 max-h-[300px] overflow-hidden`}
+          style={{
+            msOverflowStyle: 'none',
+            scrollbarWidth: 'none',
+            position: 'absolute',
+            top: '100%',
+            left: '0',
+            right: '0',
+            width: '100%',
+          }}
         >
-          {people1.map((person) => (
-            <ListboxOption
-              key={person.id}
-              value={person}
-              className='data-[focus]:bg-gray-500  p-[1px] data-[focus]:text-white'
-              // onClick={() => {
-              //   setIsOptionSelected((prev) => !prev)
-              // }}
-            >
-              {person.category}
-            </ListboxOption>
-          ))}
+          <div
+            className='h-full overflow-y-auto'
+            style={{
+              msOverflowStyle: 'none',
+              scrollbarWidth: 'none',
+            }}
+          >
+            {people1.map((person) => (
+              <ListboxOption
+                key={person.id}
+                value={person}
+                className='data-[focus]:bg-gray-500  p-[1px] data-[focus]:text-white'
+                // onClick={() => {
+                //   setIsOptionSelected((prev) => !prev)
+                // }}
+              >
+                {person.category}
+              </ListboxOption>
+            ))}
+          </div>
         </ListboxOptions>
       </Listbox>
     </div>
