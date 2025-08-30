@@ -88,23 +88,17 @@ const people1 = [
 ]
 
 export default function ListBox({
-  // isOptionSelected,
-  // setIsOptionSelected,
   handleOptionSelected,
   selected,
   setSelected,
-}: // inputRef,
-ListBOxProps) {
+}: ListBOxProps) {
   const handleChange = (newOption: personProps) => {
-    // Custom logic
-    setSelected(newOption) // Update the state
+    setSelected(newOption)
     handleOptionSelected()
   }
 
-  // const [selected, setSelected] = useState(people[0])
   const [isOpen, setIsOpen] = useState(false)
 
-  // console.log(isOptionSelected)
   useEffect(() => {
     setSelected(people1[0])
   }, [setSelected])
@@ -119,16 +113,9 @@ ListBOxProps) {
           className={`bg-gray-200 h-full rounded-l-[2px] flex justify-center items-center text-nowrap p-2 ${
             !isOpen ? '' : 'border-2 border-amazon-orange'
           } border-0`}
-          // onBlurCapture={() => setIsOpen(false)}
         >
           {selected?.category}
-          <Image
-            src='/image/drop-down.svg'
-            alt='down'
-            width={15}
-            height={15}
-            //   className='object-contain'
-          />
+          <Image src='/image/drop-down.svg' alt='down' width={15} height={15} />
         </ListboxButton>
         <ListboxOptions
           anchor='bottom start'
@@ -155,9 +142,6 @@ ListBOxProps) {
                 key={person.id}
                 value={person}
                 className='data-[focus]:bg-gray-500  p-[1px] data-[focus]:text-white'
-                // onClick={() => {
-                //   setIsOptionSelected((prev) => !prev)
-                // }}
               >
                 {person.category}
               </ListboxOption>

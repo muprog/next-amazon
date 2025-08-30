@@ -7,15 +7,9 @@ import MyContext from '../ContextApi/MyContext'
 import Image from 'next/image'
 interface savedForLaterType {
   save: cartDataProps
-  // savedForLater: cartDataProps[]
-  // setSavedForLater: React.Dispatch<React.SetStateAction<cartDataProps[]>>
 }
 
-export default function SavedForLaterStructure({
-  save,
-}: // savedForLater,
-// setSavedForLater,
-savedForLaterType) {
+export default function SavedForLaterStructure({ save }: savedForLaterType) {
   const context = useContext(MyContext)
   if (!context) return <div>Loading</div>
 
@@ -50,7 +44,6 @@ savedForLaterType) {
         saved.product.description === save.product.description &&
         saved.product.id === save.product.id
     )
-    // console.log(filtered)
     if (filtered.length > 0) {
       setSavedForLater((prev) => {
         return prev.filter(

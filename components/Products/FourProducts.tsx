@@ -14,12 +14,10 @@ export default function FourProducts(product: FourProductsProps) {
             </h3>
           </div>
           <div className='w-full grid grid-cols-2 flex-1 gap-2'>
-            {/* Dynamic Links */}
             {product.product.category.map((name, index) => (
               <div key={index}>
                 <Link href={`/category/${encodeURIComponent(name)}`}>
                   {' '}
-                  {/* Use only one name from the array */}
                   <div className='min-w-[80px] max-w-[110px] min-h-[90px] max-h-[100px] relative'>
                     <Image
                       src={`${product.product.images[index]}`}

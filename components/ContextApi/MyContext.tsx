@@ -1,26 +1,3 @@
-// 'use client'
-
-// import React, { createContext, Dispatch, useState } from 'react'
-// interface MyContextType {
-//   state: string
-//   setState: Dispatch<React.SetStateAction<string>>
-//   cartData: any[]
-//   setCartData: Dispatch<React.SetStateAction<any[]>>
-// }
-// const MyContext = createContext<MyContextType | undefined>(undefined)
-// export const MyProvider = ({ children }: { children: React.ReactNode }) => {
-//   const [state, setState] = useState('initial state')
-//   const [cartData, setCartData] = useState<any[]>([])
-
-//   return (
-//     <MyContext.Provider value={{ state, setState, cartData, setCartData }}>
-//       {children}
-//     </MyContext.Provider>
-//   )
-// }
-
-// export default MyContext
-
 'use client'
 
 import { cartDataProps } from '@/Types'

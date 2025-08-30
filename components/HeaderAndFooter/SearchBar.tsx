@@ -10,21 +10,10 @@ import React, { useRef, useState } from 'react'
 import ListBox from './ListBox'
 import { useRouter } from 'next/navigation'
 
-// const people = [
-//   { id: 1, name: 'Adoniyas Seid' },
-//   { id: 2, name: 'Alemu Kebede' },
-//   { id: 3, name: 'Habtamu Lamesgin' },
-//   { id: 4, name: 'Slenat Lamesgin' },
-// ]
-
 interface filteredPeopleProps {
   id: number
   name: string
 }
-// interface listProps {
-//   id: number
-//   name: string
-// }
 
 const people1 = [
   {
@@ -102,13 +91,6 @@ export default function SearchBar() {
   const [isOptionSelected, setIsOptionSelected] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // const filteredPeople =
-  //   query === ''
-  //     ? people1
-  //     : people1.filter((person) =>
-  //         person.category.toLowerCase().includes(query.toLowerCase())
-  //       )
-
   const filteredPeople1 =
     selectedListBox &&
     (people1
@@ -130,12 +112,10 @@ export default function SearchBar() {
     }
   }
 
-  // console.log(filteredPeople1)
-
   const handleOptionSelected = () => {
     setIsOptionSelected(true)
     setTimeout(() => {
-      inputRef.current?.focus() // Set focus to the ComboboxInput after option selection
+      inputRef.current?.focus()
     }, 100)
   }
 

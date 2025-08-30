@@ -67,14 +67,6 @@ export default function DynamicPage() {
     setSearch(result)
   }
 
-  // const bookData = async (name: string) => {
-  //   const result = await getBookData()
-  //   setSearch(
-  //     result.filter((product: ProductDetailProps) => {
-  //       return product.category === name
-  //     })
-  //   )
-  // }
   const formattedName =
     typeof name === 'string'
       ? name.replace(/%20/gi, ' ').replace(/%26/g, ' & ')
